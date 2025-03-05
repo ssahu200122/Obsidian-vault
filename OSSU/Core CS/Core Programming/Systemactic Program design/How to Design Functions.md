@@ -11,5 +11,5 @@ The [(HtDF)](https://courses.edx.org/courses/course-v1:UBCx+SPD1x+2T2015/77860a9
 
 ### question:
 
-![Question](./resources/q.png)
+![Question](https://github.com/ssahu200122/Obsidian-vault/blob/main/resources/q.png?raw=true)
 
