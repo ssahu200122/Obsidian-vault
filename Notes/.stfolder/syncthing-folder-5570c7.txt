@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: cgnmc-h7igw
+created: 2025-03-05T08:52:40+05:30

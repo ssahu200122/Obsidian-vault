@@ -63,7 +63,7 @@
   "showSecondOrderLinks": true,
   "focusOnFileTab": true,
   "openInMainWorkspace": true,
-  "showLinkBrackets": true,
+  "showLinkBrackets": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -194,7 +194,7 @@
       "penOptions": {
         "highlighter": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "constantPressure": true,
         "options": {
           "smoothing": 0.4,
@@ -432,7 +432,7 @@
       }
     }
   ],
-  "numberOfCustomPens": 0,
+  "numberOfCustomPens": 8,
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfFrame": false,
@@ -449,8 +449,8 @@
     "OPACITY": 50
   },
   "laserSettings": {
-    "DECAY_LENGTH": 50,
-    "DECAY_TIME": 1000,
+    "DECAY_LENGTH": 150,
+    "DECAY_TIME": 3000,
     "COLOR": "#ff0000"
   },
   "embeddableMarkdownDefaults": {
