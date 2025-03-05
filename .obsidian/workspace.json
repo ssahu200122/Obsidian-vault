@@ -11,32 +11,13 @@
             "id": "ffce35aa96a433d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "fdb3ee82128fb760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Demo/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,13 +146,23 @@
               "icon": "lucide-list",
               "title": "Outline of Untitled"
             }
+          },
+          {
+            "id": "2e534351ad76b96e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,9 +175,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e501eeeb3edb1dc5",
+  "active": "ffce35aa96a433d6",
   "lastOpenFiles": [
     "Welcome.md",
+    "utilities/Rewards email and numbers.md",
+    "utilities/Markdown Cheat sheet.md",
+    "utilities",
+    "resources/Pasted image 20250305012745.png",
+    "resources",
+    "OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
+    "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
+    "OSSU/Core CS/Core Programming/Systemactic Program design",
+    "OSSU/Core CS/Core Programming/Core programming.md",
+    "OSSU/Core CS/Core CS.md",
+    "OSSU/Core CS/Core Programming",
+    "OSSU/Core CS",
+    "OSSU/OSSU.md",
+    "OSSU",
+    "Excalidraw",
     "Demo/Untitled.md",
     "Demo"
   ]
