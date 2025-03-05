@@ -1,3 +1,0 @@
-## [[Core programming]]
-## [[Core math]]
-
