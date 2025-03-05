@@ -1,1 +1,0 @@
-- [[_ Systematic program design]]
