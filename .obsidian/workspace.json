@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b0a9f8834f774b6d",
+        "id": "50365cb81d157e0b",
         "type": "tabs",
         "children": [
           {
-            "id": "ffce35aa96a433d6",
+            "id": "06155daaa6ec70e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "How to Design Functions"
-            }
-          },
-          {
-            "id": "adcf8f54609cfac1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-05 07.18.50.excalidraw"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +177,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "adcf8f54609cfac1",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
     "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
     "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.md",
