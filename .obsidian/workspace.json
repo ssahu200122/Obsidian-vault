@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "How to Design Functions"
             }
+          },
+          {
+            "id": "adcf8f54609cfac1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-05 07.18.50.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,13 +189,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "ffce35aa96a433d6",
+  "active": "adcf8f54609cfac1",
   "lastOpenFiles": [
-    "resources/q.png",
     "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
+    "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.md",
+    "resources/q.png",
     "Welcome.md",
     "utilities/Rewards email and numbers.md",
     "utilities/Markdown Cheat sheet.md",
