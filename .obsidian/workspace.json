@@ -11,10 +11,14 @@
             "id": "ffce35aa96a433d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "How to Design Functions"
             }
           }
         ]
@@ -175,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e501eeeb3edb1dc5",
+  "active": "ffce35aa96a433d6",
   "lastOpenFiles": [
     "Welcome.md",
     "utilities/Rewards email and numbers.md",

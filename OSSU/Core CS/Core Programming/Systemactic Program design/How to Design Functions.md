@@ -11,5 +11,5 @@ The [(HtDF)](https://courses.edx.org/courses/course-v1:UBCx+SPD1x+2T2015/77860a9
 
 ### question:
 
-![[Pasted image 20250305012745.png]]
+![[q.png]]
 
