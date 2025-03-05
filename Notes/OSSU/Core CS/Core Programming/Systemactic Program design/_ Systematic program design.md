@@ -1,1 +1,3 @@
-## [[How to Design Functions]]
+## [[How to design functions Recipe]]
+## [[How to design data definition]]
+

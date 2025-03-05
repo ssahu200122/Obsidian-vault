@@ -11,14 +11,86 @@
             "id": "06155daaa6ec70e8",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
+            }
+          },
+          {
+            "id": "71173bca41f6642d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
+            }
+          },
+          {
+            "id": "66e11d58fe87e44f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
+            }
+          },
+          {
+            "id": "941e2604dfc75214",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
+            }
+          },
+          {
+            "id": "7713e72ce5fddc1b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
+            }
+          },
+          {
+            "id": "f7714fa603b2c8d1",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to Design Functions"
+              "title": "HtDF"
+            }
+          },
+          {
+            "id": "97de584a68aad226",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
             }
           },
           {
@@ -57,7 +129,8 @@
               "title": "OSSU"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -114,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 471.5
   },
   "right": {
     "id": "adfb45fdf6de6698",
@@ -226,10 +299,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "06155daaa6ec70e8",
+  "active": "f7714fa603b2c8d1",
   "lastOpenFiles": [
-    "Notes/Excalidraw",
+    "Notes/resources/q.png",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
+    "Untitled.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
+    "Notes/OSSU/Core CS/Core Programming/Core programming.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
+    "Notes/OSSU/OSSU_ROOT.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
+    "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
+    "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.svg",
+    "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "Notes/Excalidraw",
     "Notes/Excalidraw/Demo drawing.md",
     "Notes/Excalidraw/demo note.md",
     "Notes/utilities/Rewards email and numbers.md",
@@ -241,26 +333,14 @@
     "Excalidraw/OSSU 2025-03-05 10.50.57.excalidraw.md",
     "Excalidraw/cropped_Screenshot 2024-11-04 205015.md",
     "Notes/Demo note.md",
-    "Notes/OSSU/OSSU.md",
-    "Excalidraw",
     "Notes/Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-103644-QKYQZBM.md",
     "Notes/Excalidraw/~syncthing~Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-103644-QKYQZBM.md.tmp",
-    "Notes/resources/q.png",
     "Notes/Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-100244-OX7WQ3H.md",
     "Notes/Excalidraw/~syncthing~Drawing 2025-03-05 07.18.50.excalidraw.md.tmp",
     "Notes/utilities/Markdown Cheat sheet.md",
     "Notes/utilities",
     "Notes/resources/Pasted image 20250305012745.png",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design",
-    "Notes/OSSU/Core CS/Core Programming/Core programming.md",
-    "Notes/OSSU/Core CS/Core Programming",
-    "Notes/OSSU/Core CS",
-    "Notes/resources",
-    "Notes/OSSU",
-    "Notes/OSSU/OSSU.sync-conflict-20250305-085454-QKYQZBM.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.sync-conflict-20250305-084939-QKYQZBM.md",
-    "Welcome.md",
-    "Demo/Untitled.md"
+    "Notes/OSSU/OSSU.sync-conflict-20250305-085454-QKYQZBM.md"
   ]
 }

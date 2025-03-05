@@ -4,11 +4,11 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "OSSU",
+      "query": "file:OSSU_ROOT",
       "color": {
         "a": 1,
         "rgb": 15662848
@@ -21,10 +21,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.64968814968815,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.2972660629093196,
+  "linkDistance": 30,
+  "scale": 0.634708119077908,
   "close": false
 }

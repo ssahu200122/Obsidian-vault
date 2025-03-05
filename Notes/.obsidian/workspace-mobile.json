@@ -11,17 +11,12 @@
             "id": "bbe6bdb49b3509f2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 2.825800575715924,
-                  "y": 75.8091934640345,
-                  "zoom": -0.46994837491241215
-                }
+                "file": "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
             }
           }
         ]
@@ -159,18 +154,22 @@
   },
   "active": "bbe6bdb49b3509f2",
   "lastOpenFiles": [
-    "Excalidraw/Excalidraw cheat sheet.md",
-    "Excalidraw/Demo drawing.md",
-    "Excalidraw/demo note.md",
+    "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
+    "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
     "OSSU/Core CS/Core Programming/Core programming.md",
     "OSSU/Core CS/Core CS.md",
+    "OSSU/OSSU_ROOT.md",
+    "Excalidraw/Excalidraw cheat sheet.md",
+    "Untitled.canvas",
+    "Templates",
+    "Excalidraw/Demo drawing.md",
+    "Excalidraw/demo note.md",
     "OSSU/OSSU.md",
     "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-100244-OX7WQ3H.md",
     "Demo note.md",
     "Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.md",
-    "Untitled.canvas",
     "resources/Pasted image 20250305012745.png",
     "resources/q.png",
     "utilities/Rewards email and numbers.md",
