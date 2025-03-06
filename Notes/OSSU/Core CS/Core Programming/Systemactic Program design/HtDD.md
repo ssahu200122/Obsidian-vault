@@ -108,5 +108,7 @@ consumes on of [0,1,2] and produces in same range.
 ![[Pasted image 20250305194155.png]]
 
 ```mermaid
-biology -> chemistry
+graph TD
+
+Biology --> Chemistry
 ```
