@@ -86,9 +86,6 @@ consumes on of [0,1,2] and produces in same range.
 - How to interpret data as information
 - template for operating on data
 
-### Problem:
-![[Pasted image 20250305194155.png]]
-
 #### [A data definition consists of four or five elements:](https://courses.edx.org/courses/course-v1:UBCx+SPD1x+2T2015/77860a93562d40bda45e452ea064998b/?_gl=1*1qvyjwn*_gcl_au*MjA5MjE3OTMwMC4xNzM0NTIwNzg5*_ga*MTYwOTgwMTkzNS4xNzM0NTIwNzg4*_ga_D3KS4KMDT0*MTc0MTE4Mzc1MS42LjEuMTc0MTE4Mzc1NC41Ny4wLjA.#HtDD)
 
 1. A possible **structure definition** (not until compound data)
@@ -104,3 +101,7 @@ consumes on of [0,1,2] and produces in same range.
 (define (fn-for-type-name x)
   <body>)
 ```
+
+
+### Problem:
+![[Pasted image 20250305194155.png]]
