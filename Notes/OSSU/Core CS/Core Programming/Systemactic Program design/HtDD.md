@@ -166,10 +166,7 @@ consumes on of [0,1,2] and produces in same range.
 title: Data Types classification
 ---
 flowchart TB
-    A[Data]
-    P[Primitive]
-    N[Non-Primitive]
-    A-->P&P
+    Data[Data]--> P[Primitive] & NP[Non-Primitive]
 
 ```
 
