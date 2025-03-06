@@ -163,10 +163,10 @@ consumes on of [0,1,2] and produces in same range.
 
 ```mermaid
 ---
-title: "`**Data Types classification**`"
+title: Data Types classification
 ---
-flowchart LR
-    id1[This is the text in the box]
+flowchart TB
+    Data[Data]
 
 ```
 
