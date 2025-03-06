@@ -33,7 +33,8 @@
               "title": "HtDD"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,10 +204,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "33249dd60460a5d6",
+  "active": "02627911a6b971ca",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Pasted image 20250306211437.png",
     "Notes/utilities/Untitled.canvas",
     "shivani.png",
