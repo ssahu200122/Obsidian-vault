@@ -49,6 +49,5 @@ command("cd new")
  >ABCD
 
 3.   
-   >[!todo] ABCD
-   >
-   
+   >[!todo] 
+   >ABCD
