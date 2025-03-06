@@ -106,6 +106,7 @@ consumes on of [0,1,2] and produces in same range.
 
 
 >[!question]
+>#problem
 >![[Pasted image 20250305194155.png]]
 
 
@@ -185,6 +186,7 @@ flowchart TB
 
 
 ## Interval
+****
 
 
 
