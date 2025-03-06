@@ -166,12 +166,15 @@ consumes on of [0,1,2] and produces in same range.
 title: Data Types classification
 ---
 flowchart TB
-    D[Data] --> primitive 
+    D[Data] --> primitive & NP
     subgraph primitive
-    PT[String and Number] 
+	String 
+	Number
     end
     subgraph NP[Non-primitive]
-    Atomic -->  Distinct --> interval --> Enumeration --> itemization
+    Atomic 
+    Distinct 
+    interval --> Enumeration --> itemization
     end
 
 ```
