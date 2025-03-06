@@ -122,7 +122,21 @@ consumes on of [0,1,2] and produces in same range.
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
 
-
+```mermaid
+zenuml
+    title Reply message
+    Client->A.method() {
+      B.method() {
+        if(condition) {
+          return x1
+          // return early
+          @return
+          A->Client: x11
+        }
+      }
+      return x2
+    }
+```
 
 
 
