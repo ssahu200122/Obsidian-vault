@@ -71,4 +71,6 @@ command("cd new")
 >This is my warning
 
 7. 
->[!]
+>[!abstract]
+>This text is absyract
+
