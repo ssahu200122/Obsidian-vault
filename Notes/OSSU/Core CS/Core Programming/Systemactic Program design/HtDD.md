@@ -169,7 +169,7 @@ flowchart TB
     Data[Data]
     P[Primitive]
     NP[Non-Primitive]
-    Data->
+    Data-->p&NP
 
 ```
 
