@@ -44,6 +44,7 @@ command("cd new")
 >[!note] 
 >ABCD
 
-2
- 
+2.  
+ >[!info]
+ >ABCD
  
