@@ -147,7 +147,9 @@ consumes on of [0,1,2] and produces in same range.
 >;; CityName -> Boolean
 >;; Produces true if city is best in the world
 >
->(define (best-city? cn)false)                   ; stub
+>
+>
+>;(define (best-city? cn)false)                   ; stub
 >
 >; took templatae form CityName:
 >
