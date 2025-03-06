@@ -162,7 +162,12 @@ consumes on of [0,1,2] and produces in same range.
 
 
 ```mermaid
-title data types classification
+---
+title: Node with text
+---
+flowchart LR
+    id1[This is the text in the box]
+
 ```
 
 
