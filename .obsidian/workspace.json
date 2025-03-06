@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "file": "Notes/utilities/Markdown Cheat sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDD"
+              "title": "Markdown Cheat sheet"
             }
           },
           {
@@ -326,8 +326,8 @@
   },
   "active": "6afedabf5535f9f2",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
     "Notes/OSSU/Core CS/Core Programming/Core programming.md",
     "Notes/OSSU/Core CS/Core CS.md",
