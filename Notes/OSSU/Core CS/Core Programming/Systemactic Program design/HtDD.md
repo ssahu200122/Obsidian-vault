@@ -116,7 +116,10 @@ consumes on of [0,1,2] and produces in same range.
 >(define C2 "Dehli")
 >
 >#;
->(define (fn-fo))
+>define (fn-for-city-name cn)
+>(... cn))
+
+
 
 
    
