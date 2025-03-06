@@ -114,6 +114,18 @@
             }
           },
           {
+            "id": "33249dd60460a5d6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
             "id": "97de584a68aad226",
             "type": "leaf",
             "state": {
@@ -162,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -332,7 +344,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0efdeb88dfd02221",
+  "active": "33249dd60460a5d6",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
