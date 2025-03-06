@@ -83,10 +83,12 @@
             "id": "d7b033d83e22df4a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design data definition"
             }
           },
           {
@@ -308,17 +310,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d7b033d83e22df4a",
+  "active": "9a0d0c6cfe7b2219",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
+    "Notes/OSSU/Core CS/Core Programming/Core programming.md",
+    "Notes/OSSU/Core CS/Core CS.md",
+    "Notes/OSSU/OSSU_ROOT.md",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
     "OneNote/git and gitHub/git harry/Git.md",
-    "Notes/OSSU/OSSU_ROOT.md",
     "Exported image 20250306064943-0.png",
     "OneNote/git and gitHub/git harry",
     "OneNote/git and gitHub",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "OneNote",
     "Pasted image 20250305195041.png",
     "Notes/resources/Pasted image 20250305194155.png",
@@ -327,10 +332,8 @@
     "Notes/resources/q.png",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
     "Untitled.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
-    "Notes/OSSU/Core CS/Core Programming/Core programming.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
     "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
@@ -344,7 +347,6 @@
     "Notes/Excalidraw/Demo drawing.md",
     "Notes/Excalidraw/demo note.md",
     "Notes/utilities/Rewards email and numbers.md",
-    "Notes/OSSU/Core CS/Core CS.md",
     "Notes/Templates",
     "Screenshot 2024-11-04 205015.png",
     "Notes/Excalidraw/Excalidraw cheat sheet.md",
