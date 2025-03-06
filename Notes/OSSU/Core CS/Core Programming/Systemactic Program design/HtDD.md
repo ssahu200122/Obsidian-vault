@@ -103,7 +103,7 @@ consumes on of [0,1,2] and produces in same range.
 ```
 
 
-# ABCD
+
 
 >[!question]
 >![[Pasted image 20250305194155.png]]
@@ -161,10 +161,7 @@ consumes on of [0,1,2] and produces in same range.
 >```
 
 
-# ABCD
-d,fnaf
-dfafhd
- 
+
 
 
 
