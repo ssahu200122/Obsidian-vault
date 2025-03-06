@@ -147,7 +147,8 @@ consumes on of [0,1,2] and produces in same range.
 >;; CityName -> Boolean
 >;; Produces true if city is best in the world
 >
->
+(check-expect (best-city? "Dehli")false)
+(check-expect (best-city? "Jabalpur")true)
 >
 >;(define (best-city? cn)false)                   ; stub
 >
@@ -155,18 +156,9 @@ consumes on of [0,1,2] and produces in same range.
 >
 >(define (best-city? cn)                     
 >      (string=? cn "Jabalpur"))
->
->
->
->
- >```
+>```
 
 
-
-
-
-
-    
 
  
  
