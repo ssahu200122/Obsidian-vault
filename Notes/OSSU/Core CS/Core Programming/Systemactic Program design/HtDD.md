@@ -132,10 +132,16 @@ consumes on of [0,1,2] and produces in same range.
 (define C1 "Mumbai")
 (define C2 "Dehli")                                    // Examples
 #;
-(define (fn-for-city-name cn)                     // Template
-     (... cn))
+(define (fn-for-city-name cn)                     // Template 
+(... cn))
 ;; Template rules used: 
-;;         -atomic non-distinct: String 
+;;         -atomic non-distinct: String ```
+
+
+
+
+
+    
 
  
  
