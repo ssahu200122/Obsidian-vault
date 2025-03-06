@@ -1,6 +1,5 @@
 - [[Core CS]]
-- hjgjhfgjf
-- jhgjj
+
 
 
 
