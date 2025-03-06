@@ -18,7 +18,7 @@
       "query": "file:systematic program design",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 7559422
       }
     }
   ],
@@ -32,6 +32,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.5266815439863669,
-  "close": false
+  "scale": 0.6431931280417338,
+  "close": true
 }
