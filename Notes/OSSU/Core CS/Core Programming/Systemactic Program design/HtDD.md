@@ -112,4 +112,5 @@ graph TD
 
 Biology --> Chemistry
 ```
->[!note] dhkfh
+>[!Note] Note
+>  
