@@ -117,12 +117,17 @@
             "id": "33249dd60460a5d6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Notes/utilities/Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           },
           {
@@ -344,8 +349,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "33249dd60460a5d6",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/utilities/Untitled.canvas",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
