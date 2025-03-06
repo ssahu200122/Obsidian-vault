@@ -187,8 +187,12 @@ flowchart TB
 
 ## Interval
 Use an interval when the information to be represented is numbers within a certain range. 
+		
 **Example:**
    Integer[0, 10]
+
+>[!question]
+>
 
 
 
