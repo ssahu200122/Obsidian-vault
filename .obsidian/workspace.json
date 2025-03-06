@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OneNote/git and gitHub/git harry/Git.md",
+                "file": "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Use, $ git add filename to stage a file"
             }
           },
           {
@@ -314,10 +314,10 @@
   },
   "active": "d7b033d83e22df4a",
   "lastOpenFiles": [
-    "Notes/OSSU/OSSU_ROOT.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
-    "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/Git.md",
+    "Notes/OSSU/OSSU_ROOT.md",
+    "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "Exported image 20250306064943-0.png",
     "OneNote/git and gitHub/git harry",
     "OneNote/git and gitHub",
