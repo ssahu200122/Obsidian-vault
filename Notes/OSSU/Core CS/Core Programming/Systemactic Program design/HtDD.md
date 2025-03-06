@@ -127,7 +127,8 @@ consumes on of [0,1,2] and produces in same range.
 
  >[!success] Solution
  >```
- >;; Data definit
+ >;; Data definitions: 
+ >
  > ;; CityName is  Stirng                                 // type comment
 > ;; interp. the name of a city                       // interpretation
 > 
@@ -140,6 +141,10 @@ consumes on of [0,1,2] and produces in same range.
 >      
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
+>
+>;;Funtioins:
+>
+>
  >```
 
 
