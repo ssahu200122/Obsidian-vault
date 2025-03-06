@@ -169,6 +169,9 @@ flowchart TB
     Data[Data]--> P[Primitive] & NP[Non-Primitive]
     P --> PT[ String and Number] 
     NP --> Atomic 
+    subgraph Non-primitive
+    Atomic -->  Distinct & interval & Enumeration & itemization
+
 ```
 
 
