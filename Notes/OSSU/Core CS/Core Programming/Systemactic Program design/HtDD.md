@@ -170,7 +170,8 @@ flowchart TB
     P --> PT[ String and Number] 
     NP --> Atomic 
     subgraph Non-primitive
-    Atomic -->  Distinct & interval & Enumeration & itemization
+    Atomic -->  Distinct --> interval --> Enumeration --> itemization
+    end
 
 ```
 
