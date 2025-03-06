@@ -149,6 +149,12 @@ consumes on of [0,1,2] and produces in same range.
 >
 >(define (best-city? cn)false)                   ; stub
 >
+>; took templatae form CityName:
+>
+>
+>
+>
+>
 >
  >```
 
