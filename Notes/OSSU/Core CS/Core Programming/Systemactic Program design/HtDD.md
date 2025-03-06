@@ -109,7 +109,9 @@ consumes on of [0,1,2] and produces in same range.
 
 > [!done] Solution
 > ```
-> ;; City
+> ;; CityName is  Stirng                                 
+> ;; interp. the name of a city
+> 
 > ```
 
 
