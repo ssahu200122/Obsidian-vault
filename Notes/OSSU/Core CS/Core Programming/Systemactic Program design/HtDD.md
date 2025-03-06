@@ -113,11 +113,11 @@ consumes on of [0,1,2] and produces in same range.
 > ;; interp. the name of a city                       // interpretation
 > 
 >(define C1 "Mumbai")
->(define C2 "Dehli")
+>(define C2 "Dehli")                                    // Examples
 >
 >#;
->define (fn-for-city-name cn)                     // Template
->(... cn))
+>(define (fn-for-city-name cn)                     // Template
+>      (... cn))
 >
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
