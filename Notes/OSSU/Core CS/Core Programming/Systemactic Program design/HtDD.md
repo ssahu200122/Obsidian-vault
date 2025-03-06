@@ -122,13 +122,7 @@ consumes on of [0,1,2] and produces in same range.
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
 
-```mermaid
-block-beta
-  columns 3
-  a b c d E F 
-
-```
-
+>[!code]
 
 
 
