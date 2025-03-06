@@ -1,4 +1,8 @@
 {
-	"nodes":[],
+	"nodes":[
+		{"id":"8670d623bd3d5836","x":-600,"y":-313,"width":306,"height":246,"type":"file","file":"croma id D.png"},
+		{"id":"8a57e1421c73fb19","x":-260,"y":-313,"width":265,"height":246,"type":"file","file":"croma id E.png"},
+		{"id":"3b475d38c6975640","x":60,"y":-313,"width":294,"height":246,"type":"file","file":"croma id F.png"}
+	],
 	"edges":[]
 }
