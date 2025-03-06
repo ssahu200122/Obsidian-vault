@@ -125,7 +125,7 @@ consumes on of [0,1,2] and produces in same range.
 ```mermaid
 block-beta
   columns 3
-  a b c d
+  a b c d E F 
 
 ```
 
