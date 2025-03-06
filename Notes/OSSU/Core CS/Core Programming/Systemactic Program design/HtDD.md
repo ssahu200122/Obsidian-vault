@@ -126,7 +126,7 @@ consumes on of [0,1,2] and produces in same range.
 >;;         -atomic non-distinct: String 
 
 >[!question]
->#problem
+>#
 >![[Pasted image 20250306211437.png]]
 
  >[!success] Solution
@@ -192,7 +192,8 @@ Use an interval when the information to be represented is numbers within a certa
    Integer[0, 10]
 
 >[!question]
->
+>#question
+>![[Pasted image 20250306225048.png]]
 
 
 
