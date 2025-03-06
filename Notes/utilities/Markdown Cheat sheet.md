@@ -64,3 +64,11 @@ command("cd new")
 > [!question] Can callouts be nested?
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
+
+
+6. 
+>[!warning]
+>This is my warning
+
+7. 
+>[!]
