@@ -106,7 +106,7 @@ consumes on of [0,1,2] and produces in same range.
 
 
 >[!question]
->#problem
+>#question
 >![[Pasted image 20250305194155.png]]
 
 
@@ -126,7 +126,7 @@ consumes on of [0,1,2] and produces in same range.
 >;;         -atomic non-distinct: String 
 
 >[!question]
->#
+>#question
 >![[Pasted image 20250306211437.png]]
 
  >[!success] Solution
