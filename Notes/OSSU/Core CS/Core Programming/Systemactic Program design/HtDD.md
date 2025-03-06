@@ -197,7 +197,10 @@ Use an interval when the information to be represented is numbers within a certa
 
 
 
-
+>[!success] Solution
+>```
+>
+>```
 
 
 
