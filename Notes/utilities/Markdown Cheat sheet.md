@@ -75,4 +75,5 @@ command("cd new")
 >This text is absyract
 
 
-<iframe src="https://help.obsidian.md/callouts" width="400" height="800"></iframe>
+
+<iframe src="https://help.obsidian.md/callouts" width="800" height="1600"></iframe>
