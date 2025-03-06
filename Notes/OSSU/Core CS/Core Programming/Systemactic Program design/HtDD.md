@@ -112,7 +112,11 @@ consumes on of [0,1,2] and produces in same range.
 > ;; CityName is  Stirng                                 // type comment
 > ;; interp. the name of a city                       // interpretation
 > 
-(define C1 "Mumbai")
+>(define C1 "Mumbai")
+>(define C2 "Dehli")
+   
+
+
 
 
 
