@@ -152,7 +152,7 @@ consumes on of [0,1,2] and produces in same range.
 >; took templatae form CityName:
 >
 >(define (best-city? cn)                     
->      (... cn))
+>      (string=? cn "Jabalpur"))
 >
 >
 >
