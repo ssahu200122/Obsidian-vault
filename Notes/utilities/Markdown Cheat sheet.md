@@ -51,3 +51,9 @@ command("cd new")
 3.   
    >[!todo] 
    >ABCD
+
+4. 
+>[!tip]
+>BACD
+
+
