@@ -58,6 +58,9 @@ command("cd new")
 
 
 5. 
->[!question] -
->This is a foldable question, can + and - with callout to set default fold status
->
+>[!question]-
+>This is a foldable question, can + and - with callout to set default fold status.
+
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
