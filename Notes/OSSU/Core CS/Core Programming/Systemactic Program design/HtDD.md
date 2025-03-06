@@ -167,7 +167,8 @@ title: Data Types classification
 ---
 flowchart TB
     Data[Data]--> P[Primitive] & NP[Non-Primitive]
-    P --> PT[ String and NUmber]
+    P --> PT[ String and Number] 
+    NP --> Enumeration &
 
 ```
 
