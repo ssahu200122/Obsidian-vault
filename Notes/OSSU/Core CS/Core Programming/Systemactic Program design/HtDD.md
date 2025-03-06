@@ -163,7 +163,7 @@ consumes on of [0,1,2] and produces in same range.
 
 ```mermaid
 ---
-title: Node with text
+title: "`**Data Types classification**`"
 ---
 flowchart LR
     id1[This is the text in the box]
