@@ -117,17 +117,10 @@
             "id": "33249dd60460a5d6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Notes/utilities/Untitled.canvas",
-                "viewState": {
-                  "x": 18.600804205443815,
-                  "y": 13.012786323421878,
-                  "zoom": -0.06977301581707422
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -351,6 +344,7 @@
   },
   "active": "33249dd60460a5d6",
   "lastOpenFiles": [
+    "Notes/utilities/Untitled.canvas",
     "shivani.png",
     "croma sourabh 2.png",
     "croma sachin1.png",
@@ -358,7 +352,6 @@
     "croma id E.png",
     "croma id D.png",
     "Notes/utilities/Rewards email and numbers.md",
-    "Notes/utilities/Untitled.canvas",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
@@ -378,7 +371,6 @@
     "Notes/resources/Pasted image 20250305194155.png",
     "Notes/resources/Pasted image 20250305192632.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
-    "Notes/resources/q.png",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Untitled.md",
