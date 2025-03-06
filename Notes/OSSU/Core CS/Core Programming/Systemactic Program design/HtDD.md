@@ -144,8 +144,10 @@ consumes on of [0,1,2] and produces in same range.
 >
 >;;Funtioins:
 >
->;; CityName -> boolean
+>;; CityName -> Boolean
 >;; Produces true if city is best in the world
+>
+>
 >
 >
  >```
