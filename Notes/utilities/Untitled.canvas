@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"8670d623bd3d5836","x":-600,"y":-313,"width":306,"height":246,"type":"file","file":"croma id D.png"},
-		{"id":"39235eb972ebd5d4","x":-600,"y":-20,"width":306,"height":205,"type":"file","file":"croma sachin1.png"},
-		{"id":"2b23313af76b86aa","x":-260,"y":-20,"width":278,"height":282,"type":"file","file":"croma sourabh 2.png"},
-		{"id":"8a57e1421c73fb19","x":-260,"y":-313,"width":265,"height":246,"type":"file","file":"croma id E.png"},
-		{"id":"3b475d38c6975640","x":60,"y":-313,"width":294,"height":246,"type":"file","file":"croma id F.png"},
-		{"id":"207a684d00593734","x":60,"y":-20,"width":360,"height":220,"type":"file","file":"Pasted image 20250306172725.png"}
+		{"id":"8670d623bd3d5836","type":"file","file":"croma id D.png","x":-600,"y":-313,"width":306,"height":246},
+		{"id":"39235eb972ebd5d4","type":"file","file":"croma sachin1.png","x":-600,"y":-20,"width":306,"height":205},
+		{"id":"8a57e1421c73fb19","type":"file","file":"croma id E.png","x":-260,"y":-313,"width":265,"height":246},
+		{"id":"3b475d38c6975640","type":"file","file":"croma id F.png","x":60,"y":-313,"width":294,"height":246},
+		{"id":"207a684d00593734","type":"file","file":"shivani.png","x":60,"y":-20,"width":360,"height":220},
+		{"id":"2b23313af76b86aa","type":"file","file":"croma sourabh 2.png","x":-260,"y":-20,"width":278,"height":282}
 	],
 	"edges":[]
 }
