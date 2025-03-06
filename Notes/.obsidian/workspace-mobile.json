@@ -11,14 +11,12 @@
             "id": "bbe6bdb49b3509f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "utilities/Markdown Cheat sheet.md",
-                "mode": "source",
-                "source": false
+                "file": "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
               },
-              "icon": "lucide-file",
-              "title": "Markdown Cheat sheet"
+              "icon": "excalidraw-icon",
+              "title": "How to design functions Recipe"
             }
           }
         ]
@@ -156,8 +154,9 @@
   },
   "active": "bbe6bdb49b3509f2",
   "lastOpenFiles": [
-    "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
+    "utilities/Markdown Cheat sheet.md",
+    "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/How to Design Functions.md",
     "OSSU/Core CS/Core Programming/Systemactic Program design/_ Systematic program design.md",
@@ -176,7 +175,6 @@
     "resources/Pasted image 20250305012745.png",
     "resources/q.png",
     "utilities/Rewards email and numbers.md",
-    "utilities/Markdown Cheat sheet.md",
     "utilities",
     "OSSU/Core CS/Core Programming/Systemactic Program design",
     "OSSU/Core CS/Core Programming",
