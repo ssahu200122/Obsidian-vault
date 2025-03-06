@@ -116,8 +116,13 @@ consumes on of [0,1,2] and produces in same range.
 >(define C2 "Dehli")
 >
 >#;
->define (fn-for-city-name cn)
+>define (fn-for-city-name cn)                     // Template
 >(... cn))
+>
+>;; Template rules used: 
+>;;  
+
+
 
 
 
