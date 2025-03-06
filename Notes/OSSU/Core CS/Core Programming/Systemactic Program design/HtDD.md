@@ -122,13 +122,10 @@ consumes on of [0,1,2] and produces in same range.
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
 
+>[!question]
+>![[Pasted image 20250306211437.png]]
 
-
-
-
-   
-
-
+ >[!success] Solution
 
 
 
