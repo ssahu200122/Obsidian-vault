@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/OSSU_ROOT.md",
+                "file": "OneNote/git and gitHub/git harry/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSSU_ROOT"
+              "title": "Git"
             }
           },
           {
@@ -314,6 +314,13 @@
   },
   "active": "d7b033d83e22df4a",
   "lastOpenFiles": [
+    "Notes/OSSU/OSSU_ROOT.md",
+    "OneNote/git and gitHub/git harry/To create new branch use,.md",
+    "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
+    "OneNote/git and gitHub/git harry/Git.md",
+    "Exported image 20250306064943-0.png",
+    "OneNote/git and gitHub/git harry",
+    "OneNote/git and gitHub",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "OneNote",
@@ -329,7 +336,6 @@
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
     "Notes/OSSU/Core CS/Core Programming/Core programming.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
-    "Notes/OSSU/OSSU_ROOT.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
     "Excalidraw/Scripts/Downloaded/Set Dimensions.svg",
     "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
@@ -353,10 +359,6 @@
     "Notes/Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-103644-QKYQZBM.md",
     "Notes/Excalidraw/~syncthing~Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-103644-QKYQZBM.md.tmp",
     "Notes/Excalidraw/Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-100244-OX7WQ3H.md",
-    "Notes/Excalidraw/~syncthing~Drawing 2025-03-05 07.18.50.excalidraw.md.tmp",
-    "Notes/utilities/Markdown Cheat sheet.md",
-    "Notes/utilities",
-    "Notes/resources/Pasted image 20250305012745.png",
-    "Notes/OSSU/OSSU.sync-conflict-20250305-085454-QKYQZBM.md"
+    "Notes/resources/Pasted image 20250305012745.png"
   ]
 }
