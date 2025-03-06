@@ -83,12 +83,14 @@
             "id": "d7b033d83e22df4a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md"
+                "file": "Notes/OSSU/OSSU_ROOT.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "How to design data definition"
+              "icon": "lucide-file",
+              "title": "OSSU_ROOT"
             }
           },
           {
@@ -310,10 +312,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d7b033d83e22df4a",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "OneNote",
     "Pasted image 20250305195041.png",
     "Notes/resources/Pasted image 20250305194155.png",
