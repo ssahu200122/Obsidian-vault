@@ -13,14 +13,21 @@
         "a": 1,
         "rgb": 15662848
       }
+    },
+    {
+      "query": "file:systematic program design",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.7,
   "nodeSizeMultiplier": 2.26476091476091,
   "lineSizeMultiplier": 3.03898128898129,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.520790020790021,
   "repelStrength": 20,
   "linkStrength": 1,
