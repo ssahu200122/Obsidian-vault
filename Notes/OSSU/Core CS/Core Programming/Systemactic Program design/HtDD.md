@@ -174,7 +174,9 @@ flowchart TB
     subgraph NP[Non-primitive]
     Atomic 
     Distinct 
-    interval --> Enumeration --> itemization
+    interval 
+	Enumeration 
+	itemization
     end
 
 ```
