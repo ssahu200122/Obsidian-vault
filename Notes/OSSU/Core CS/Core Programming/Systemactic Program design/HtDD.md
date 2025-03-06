@@ -103,14 +103,9 @@ consumes on of [0,1,2] and produces in same range.
 ```
 
 
-#Problem:
+
 
 ![[Pasted image 20250305194155.png]]
 
-```mermaid
-graph TD
 
-Biology --> Chemistry
-```
->[!Note] Note
->  
+
