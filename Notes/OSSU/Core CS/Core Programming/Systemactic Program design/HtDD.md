@@ -220,7 +220,7 @@ data definitions are used when the information to be represented consists of two
 > 
 >> [!done] Solution
 >> ```
-;; Grade is one of:
+>;; Grade is one of:
 ;;      - "A"
 ;;      - "B"
 ;;      - "C"
