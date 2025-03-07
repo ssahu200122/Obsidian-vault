@@ -224,7 +224,7 @@ data definitions are used when the information to be represented consists of two
 >> ;;      - "B"
 >> ;;      - "C"
 >> ;; interp. a letter grade in a course
->> ;; <examples are redundant for enumeration>
+>> ;; examples are redundant for enumeration
 >> >> #;
 >> (define (fn-for-grade g)
 >>   (cond [(string=? g "A")(..)]
