@@ -196,37 +196,7 @@ Use an interval when the information to be represented is numbers within a certa
 >![[Pasted image 20250306225048.png]]
 
 >[!done] Solution
->```
-       ;; SeatNumber is Natural[1,32]
-
-        ;; interp. seat numbers in a row, 1 and 32 are aisle seat
-
-  
-
-        (define S1  1)      ;aisle
-
-        (define S2 32)      ;aisle
-
-        (define S3  8)      ;middle
-
-  
-
-        #;
-
-        (define (fn-for-seatnumber cn)
-
-                (... cn)
-
-        )
-
-  
-
-        ; Template rules used:
-
-        ;     - atomic non-distinct: Natural[1,32]
-
-```
-
+>	
 
   
 
