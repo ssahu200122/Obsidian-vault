@@ -1,23 +1,31 @@
-<%* 
-const callouts = { 
-		note: '🔵 ✏ Note', 
-		info: '🔵 ℹ Info',
-		todo: '🔵 🔳 Todo', tip: '🌐 🔥 Tip / Hint / Important', 
-		abstract: '🌐 📋 Abstract / Summary / TLDR', 
-		question: '🟡 ❓ `Question` / Help / FAQ', quote: '🔘 💬 Quote / Cite', example: '🟣 📑 Example', 
-		success: '🟢 ✔ Success / Check / Done', 
-		warning: '🟠 ⚠ Warning / Caution / Attention', 
-		failure: '🔴 ❌ Failure / Fail / Missing', 
-		danger: '🔴 ⚡ Danger / Error', 
-		bug: '🔴 🐞 Bug', 
-		}; 
-		
-const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.'); 
+<%*
+const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
+const solutionContent = await tp.system.prompt("Enter the SOLUTION content (new line → Shift+Enter):", "", true, true);
+const imagePath = await tp.system.prompt("Enter the image file name (or leave blank):", "", false);
 
-const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.'); 
-const title = await tp.system.prompt('Title:', '', true); 
-let content = await tp.system.prompt('Content (New line -> Shift + Enter):', '', true, true); 
-content = content.split('\n').map(line => `> ${line}`).join('\n') 
-const calloutHead = `> [!${type}]${fold} ${title}\n`; 
-tR += calloutHead + content 
+let output = "";
+output += "> [!question]-\n";
+output += "> #question\n";
+
+// Insert image if provided
+if (imagePath && imagePath.trim() !== "") {
+    output += `> ![[${imagePath.trim()}]]\n`;
+}
+
+// Add the question content, each line prefixed with "> "
+if (questionContent) {
+    const qLines = questionContent.split('\n').map(line => `> ${line}`).join('\n');
+    output += qLines + "\n";
+}
+
+// Start the solution block
+output += ">> [!done] Solution\n";
+
+// Add the solution content, each line prefixed with ">> "
+if (solutionContent) {
+    const sLines = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
+    output += sLines + "\n";
+}
+
+tR += output;
 -%>
