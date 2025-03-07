@@ -32,7 +32,7 @@ if (type === 'question' || type === 'custom_question') {
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
 
 // Generate the main callout
-tR += `> [!${type}]-${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
+tR += `> [!${type}]${fold}${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
 
 // Add question content only if it's a question-type callout
 if (questionContent) {
