@@ -188,11 +188,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/Templates 1",
     "Notes/resources/Pasted image 20250307105632.png",
     "Notes/resources/croma id D.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
@@ -208,7 +210,6 @@
     "Notes/resources/Exported image 20250306064943-0.png",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/resources/shivani.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
