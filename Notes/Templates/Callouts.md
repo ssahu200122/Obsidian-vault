@@ -31,8 +31,11 @@ if (type === 'custom_question') {
 // Format question content (add `> ` at the beginning of each line)
 questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Wrap solution content inside a code block
+// Wrap solution content inside `[!done] Solution` properly
 solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
+
+// Ensure the full solution is inside the callout
+solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
 
 // Force custom_question to have its own formatting
 if (type === 'custom_question') {
