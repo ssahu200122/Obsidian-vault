@@ -8,51 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02627911a6b971ca",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg"
-              },
-              "icon": "lucide-image",
-              "title": "Untitled Diagram 1"
-            }
-          },
-          {
-            "id": "d2910cabfc41890c",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg"
-              },
-              "icon": "lucide-file",
-              "title": "Untitled Diagram 1.svg"
-            }
-          },
-          {
-            "id": "538afe8963691a5e",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg"
-              },
-              "icon": "lucide-file",
-              "title": "Untitled Diagram.svg"
-            }
-          },
-          {
             "id": "2de260183b72ecae",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md"
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "How to design world"
+              "icon": "lucide-file",
+              "title": "HtDF"
             }
           }
         ]
@@ -226,16 +192,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02627911a6b971ca",
+  "active": "2de260183b72ecae",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/resources/Pasted image 20250307151246.png",
     "Notes/resources/Pasted image 20250307151429.png",
     "Notes/resources/Pasted image 20250307182136.png",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
     "Untitled Diagram.svg",
     "Notes/Templates/Callouts.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
