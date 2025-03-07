@@ -196,8 +196,8 @@ Use an interval when the information to be represented is numbers within a certa
 >![[Pasted image 20250306225048.png]]
 
 >[!done] Solution
->
-```
+
+>```
 ;; SeatNumber is Natural[1,32]
 
 ;; interp. seat numbers in a row, 1 and 32 are aisle seat
