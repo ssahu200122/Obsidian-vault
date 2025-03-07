@@ -28,9 +28,8 @@ if (type === 'question' || type === 'custom_question') {
    questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 }
 
-// Always ask for solution content
+// Always ask for solution content as CODE
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
-solutionContent = solutionContent.split('\n').map(line => `> ${line}`).join('\n');
 
 // Generate the main callout
 tR += `> [!${type}]${fold}${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
@@ -40,11 +39,11 @@ if (questionContent) {
    tR += `> #question\n${questionContent}\n`;
 }
 
-// If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout**
+// If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout with CODE BLOCK**
 if (type === 'question' || type === 'custom_question') {
    tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 } else {
-   // If it's NOT a question, just insert the solution normally
+   // If it's NOT a question, just insert the solution normally **without nesting**, but still as CODE
    tR += `> \`\`\`\n${solutionContent}\n> \`\`\``;
 }
 
