@@ -11,12 +11,14 @@
             "id": "02627911a6b971ca",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Notes/resources/croma id D.png"
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "croma id D"
+              "icon": "lucide-file",
+              "title": "HtDD"
             }
           }
         ]
@@ -189,8 +191,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "02627911a6b971ca",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/resources/Pasted image 20250307105632.png",
+    "Notes/resources/croma id D.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/utilities/Croma Cards.canvas",
     "Notes/resources/Pasted image 20250307084557.png",
@@ -205,7 +209,6 @@
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/resources/shivani.png",
-    "Notes/resources/croma sourabh 2.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
