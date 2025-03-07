@@ -217,8 +217,7 @@ data definitions are used when the information to be represented consists of two
   >[!question]
   >![[Pasted image 20250307105632.png]]
 
-
-> [!question]$- 
+> [!question]- 
 > #question
 > ![[Pasted image 20250306225048.png]]
 >> [!done] Solution
@@ -234,4 +233,4 @@ data definitions are used when the information to be represented consists of two
 >>   (... cn))
 >> 
 >> ; Templates rules used:
->> ;          - atomic non-distinct: Natural[1,32]
+>> ;          - atomic non-distinct: Natural[1,32
