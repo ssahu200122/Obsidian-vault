@@ -241,7 +241,7 @@ Itemizations are used for information comprised of 2 or more categories, at leas
 > [!question]- 
 > #question 
 > ![[Pasted image 20250307182136.png]]
->> [!done] Solution
+>> [!done]- Solution
 >> ```
 >> ;; Countdown is one of:
 >> ;;      - false
@@ -269,6 +269,7 @@ Itemizations are used for information comprised of 2 or more categories, at leas
 >> ;       - atomic non-distinct value: Natural[1,10]
 >> ;       - atomic distinct value: "complete"
 >> ```
+
 
 
 

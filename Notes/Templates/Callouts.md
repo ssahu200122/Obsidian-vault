@@ -37,7 +37,7 @@ if (selectedCallout === "custom_question") {
     if (questionContent) {
         content += questionContent.split('\n').map(line => `> ${line}`).join('\n') + "\n";
     }
-    content += ">> [!done] Solution\n";
+    content += ">> [!done]- Solution\n";
     content += ">> ```\n";
     if (solutionContent) {
         content += solutionContent.split('\n').map(line => `>> ${line}`).join('\n') + "\n";
