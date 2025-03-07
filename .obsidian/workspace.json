@@ -35,7 +35,8 @@
               "title": "Callouts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,10 +208,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02627911a6b971ca",
+  "active": "77ed3bce087e3c42",
   "lastOpenFiles": [
-    "Notes/Templates/Callouts.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/Templates/Callouts.md",
     "Notes/Templates 1",
     "Notes/resources/Pasted image 20250307105632.png",
     "Notes/resources/croma id D.png",
