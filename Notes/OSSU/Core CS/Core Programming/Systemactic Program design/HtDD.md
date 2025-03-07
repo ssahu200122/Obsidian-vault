@@ -215,7 +215,7 @@ Use an interval when the information to be represented is numbers within a certa
 data definitions are used when the information to be represented consists of two or more distinct values.
 
 
-> [!custom_question]- question
+> [!question]- 
 > #question
 > 
 >> [!done] Solution
