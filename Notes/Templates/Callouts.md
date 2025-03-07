@@ -7,7 +7,7 @@ const callouts = {
    tip:      '🌐 🔥 Tip / Hint / Important',
    abstract: '🌐 📋 Abstract / Summary / TLDR',
    question: '🟡 ❓ Question / Help / FAQ',
-   custom_question: '🟡 📝 Custom Question',  
+   custom_question: '🟡 📝 Custom Question',
    quote:    '🔘 💬 Quote / Cite',
    example:  '🟣 📑 Example',
    success:  '🟢 ✔ Success / Check / Done',
@@ -21,30 +21,24 @@ const callouts = {
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
 const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
-// Ask for question content **only if** 'custom_question' is selected
-let questionContent = '';
-if (type === 'custom_question') {
-   questionContent = await tp.system.prompt('Enter Question Content (New line -> Shift + Enter):', '', true, true);
-   questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');  // Ensure proper formatting
-}
-
-// Always ask for solution content
-let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
-
 // Generate the main callout
-tR += `> [!${type}]${fold} question\n`;  
+tR += `> [!${type}]${fold} ${type === 'custom_question' ? 'question' : ''}\n`;
 
-// Add question content **only if** it's a 'custom_question' callout
+// If "custom_question" is selected, prompt for question content
 if (type === 'custom_question') {
-   tR += `> #question\n`;  // Add question header
-   tR += `${questionContent}\n\n`;  // **Now ensures question text appears!**
+   let questionContent = await tp.system.prompt('Enter Question Content:', '', true, true);
+   questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');  // Proper formatting
+   tR += `> #question\n${questionContent}\n\n`;
 }
 
-// Add the solution **only if it's a 'custom_question'**
+// Always prompt for solution content
+let solutionContent = await tp.system.prompt('Enter Solution Content:', '', true, true);
+
+// Insert solution only for "custom_question"
 if (type === 'custom_question') {
-   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // Solution inside [!done]
+   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 } else {
-   // If it's NOT a question, insert solution as regular text (NOT as code)
+   // For other callouts, insert solution as normal text
    tR += `> ${solutionContent}`;
 }
 
