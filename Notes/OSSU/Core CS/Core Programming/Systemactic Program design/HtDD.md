@@ -191,10 +191,10 @@ Use an interval when the information to be represented is numbers within a certa
 **Example:**
    Integer[0, 10]
 
->[!question]
+>[!question]-
 >#question
 >![[Pasted image 20250306225048.png]]
->[!done] Solution
+>>[!done] Solution
 >```
 >;; SeatNumber is Natural[1,32]
 >;; interp. a seat number in a row, 1 and 32 are aisle seat
