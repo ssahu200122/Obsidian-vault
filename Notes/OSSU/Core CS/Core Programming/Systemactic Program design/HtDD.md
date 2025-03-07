@@ -214,9 +214,12 @@ Use an interval when the information to be represented is numbers within a certa
 ## Enumeration 
 data definitions are used when the information to be represented consists of two or more distinct values.
 
-> [!question]- 
+
+> [!custom_question]- question
 > #question
-> ![[Pasted image 20250306225048.png]]
+> ```
+
+```
 >> [!done] Solution
 >> ;; Grade is one of:
 >> ;;      - "A"
