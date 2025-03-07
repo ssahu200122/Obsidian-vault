@@ -22,7 +22,7 @@ const title = await tp.system.prompt('Title:', '', true);
 
 // Use "question" in the header if "custom_question" is selected.
 const headerType = selectedCallout === "custom_question" ? "question" : selectedCallout;
-const calloutHead = `> [!${headerType}]${fold} ${title}\n`;
+const calloutHead = `> [!${headerType}]${fold} ${title}\n#question\n`;
 
 if (selectedCallout === "custom_question") {
     // Custom question callout with dynamic question content, optional image, and solution content as code.
