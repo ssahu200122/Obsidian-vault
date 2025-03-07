@@ -25,7 +25,7 @@ content = content.split('\n').map(line => `>> ${line}`).join('\n');  // Indent s
 
 // Force custom_question to have its own formatting
 if (type === 'custom_question') {
-   tR += `> [!custom_question]${fold} question\n`;  
+   tR += `> [!question]$- \n`;  
    tR += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
    tR += `>> [!done] Solution\n${content}`;
 } else {

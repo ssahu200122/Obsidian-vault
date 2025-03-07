@@ -218,8 +218,8 @@ data definitions are used when the information to be represented consists of two
   >![[Pasted image 20250307105632.png]]
 
 
-> [!custom_question]- question
-> question
+> [!question]$- 
+> #question
 > ![[Pasted image 20250306225048.png]]
 >> [!done] Solution
 >> ;; SeatNumber is Natural[1,32]
