@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDD"
+              "title": "DtDW"
+            }
+          },
+          {
+            "id": "538afe8963691a5e",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg"
+              },
+              "icon": "lucide-file",
+              "title": "Untitled Diagram.svg"
             }
           },
           {
@@ -32,21 +44,9 @@
               "icon": "excalidraw-icon",
               "title": "How to design world"
             }
-          },
-          {
-            "id": "714010a3098b0041",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Untitled Diagram.svg"
-              },
-              "icon": "lucide-file",
-              "title": "Untitled Diagram.svg"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,12 +217,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "714010a3098b0041",
+  "active": "538afe8963691a5e",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
-    "Untitled Diagram.svg",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
+    "Untitled Diagram.svg",
     "Notes/Templates/Callouts.md",
     "Pasted image 20250307182136.png",
     "Pasted image 20250307151429.png",
@@ -238,7 +239,6 @@
     "Notes/utilities/Rewards email and numbers.md",
     "Notes/resources/Pasted image 20250306225048.png",
     "Notes/resources/Pasted image 20250306211437.png",
-    "Notes/resources/Pasted image 20250305195041.png",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
