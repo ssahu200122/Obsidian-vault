@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,10 +219,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2de260183b72ecae",
+  "active": "714010a3098b0041",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
     "Pasted image 20250307182136.png",
