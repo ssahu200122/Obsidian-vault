@@ -25,12 +25,14 @@
             "id": "77ed3bce087e3c42",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "How to design functions Recipe"
+              "icon": "lucide-file",
+              "title": "HtDD"
             }
           }
         ],
@@ -207,8 +209,8 @@
   },
   "active": "77ed3bce087e3c42",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
