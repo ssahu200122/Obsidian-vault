@@ -209,7 +209,7 @@ Use an interval when the information to be represented is numbers within a certa
 >	(... cn))
 >
 >; Templates rules used: 
->		- atomic non-distinct: Natural[1,32]
+>;		- atomic non-distinct: Natural[1,32]
 >```
 
 
