@@ -19,7 +19,7 @@ const callouts = {
 
 // Ask user to select callout type
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-//const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
+const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
 // Ask for question content **only if** 'question' or 'custom_question' is selected
 let questionContent = '';
@@ -40,7 +40,7 @@ if (questionContent) {
 }
 
 // If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout as code**
-if (type === 'custom_question') {
+if (type === 'question' || type === 'custom_question') {
    tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 } else {
    // If it's NOT a question, insert solution as regular text (NOT as code)
