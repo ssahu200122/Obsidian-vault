@@ -31,8 +31,8 @@ if (type === 'custom_question') {
 // Format question content (add `> ` at the beginning of each line)
 questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Wrap solution content inside a raw code block without `>>`
-solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n\`\`\``;
+// Wrap solution content inside a code block
+solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 
 // Force custom_question to have its own formatting
 if (type === 'custom_question') {
