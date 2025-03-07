@@ -35,13 +35,9 @@ let solutionContent = await tp.system.prompt('Enter Solution Content (New line -
 tR += `> [!${type}]${fold}${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
 
 // Add question content only if it's a question-type callout
-if (questionContent) {
-   tR += `> #question\n${questionContent}\n`;
-}
-
-// If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout as code**
 if (type === 'question' || type === 'custom_question') {
-   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
+   tR += `> #question\n${questionContent}\n`;
+   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // Nest solution inside [!done] Solution
 } else {
    // If it's NOT a question, insert solution as regular text (NOT as code)
    tR += `> ${solutionContent}`;
