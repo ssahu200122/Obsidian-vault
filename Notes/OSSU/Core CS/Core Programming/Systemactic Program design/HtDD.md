@@ -105,7 +105,7 @@ consumes on of [0,1,2] and produces in same range.
 > [!question]- 
 > #question 
 > ![[Pasted image 20250305194155.png]]
->> [!done] Solution
+>> [!done]- Solution
 >> ```
 >> ;; CityName is  Stirng                                 // type comment
 >> ;; interp. the name of a city                       // interpretation
@@ -124,7 +124,7 @@ consumes on of [0,1,2] and produces in same range.
 > [!question]- 
 > #question 
 > ![[Pasted image 20250306211437.png]]
->> [!done] Solution
+>> [!done]- Solution
 >> ```
 >> ;; Data definitions: 
 >> 
@@ -189,7 +189,7 @@ Use an interval when the information to be represented is numbers within a certa
 >[!question]-
 >#question
 >![[Pasted image 20250306225048.png]]
->>[!done] Solution
+>>[!done]- Solution
 >>```
 >>;; SeatNumber is Natural[1,32]
 >>;; interp. a seat number in a row, 1 and 32 are aisle seat
@@ -212,7 +212,7 @@ data definitions are used when the information to be represented consists of two
 > [!question]- 
 > #question 
 > ![[Pasted image 20250307151429.png]]
->> [!done] Solution
+>> [!done]- Solution
 >> ```
 >> ;; Grade is one of:
 >> ;;      - "A"
