@@ -11,14 +11,12 @@
             "id": "02627911a6b971ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg"
               },
-              "icon": "lucide-file",
-              "title": "DtDW"
+              "icon": "lucide-image",
+              "title": "Untitled Diagram 1"
             }
           },
           {
@@ -230,16 +228,16 @@
   },
   "active": "02627911a6b971ca",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
+    "Notes/resources/Pasted image 20250307151246.png",
+    "Notes/resources/Pasted image 20250307151429.png",
+    "Notes/resources/Pasted image 20250307182136.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
     "Untitled Diagram.svg",
     "Notes/Templates/Callouts.md",
-    "Pasted image 20250307182136.png",
-    "Pasted image 20250307151429.png",
-    "Pasted image 20250307151246.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
