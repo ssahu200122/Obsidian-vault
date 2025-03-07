@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "HtDD"
             }
+          },
+          {
+            "id": "2de260183b72ecae",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Drawing 2025-03-07 19.07.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-07 19.07.24.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,10 +205,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02627911a6b971ca",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
-    "Notes/Templates/Callouts.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Drawing 2025-03-07 19.07.24.excalidraw.md",
+    "Notes/Templates/Callouts.md",
     "Pasted image 20250307182136.png",
     "Pasted image 20250307151429.png",
     "Pasted image 20250307151246.png",
