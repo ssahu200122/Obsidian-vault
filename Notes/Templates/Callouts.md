@@ -29,7 +29,7 @@ if (type === 'custom_question') {
    tR += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
    tR += `>> [!done] Solution\n${content}`;
 } else {
-   tR += `> [!${type}]${fold} question\n```${content}````;
+   tR += `> [!${type}]${fold} question\n\`\`\`${content}\`\`\``;
 }
 
 -%>
