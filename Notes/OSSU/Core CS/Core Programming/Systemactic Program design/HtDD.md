@@ -196,7 +196,11 @@ Use an interval when the information to be represented is numbers within a certa
 >![[Pasted image 20250306225048.png]]
 
 >[!done] Solution
->	
+>```
+>;; SeatNumber is Integer[]
+>```
+
+
 
   
 
