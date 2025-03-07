@@ -19,7 +19,7 @@ const callouts = {
 
 // Ask user to select callout type
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
+//const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
 // Ask for question content **only if** 'question' or 'custom_question' is selected
 let questionContent = '';
@@ -32,7 +32,7 @@ if (type === 'question' || type === 'custom_question') {
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
 
 // Generate the main callout
-tR += `> [!${type}]${fold}${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
+tR += `> [!${type}]-${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
 
 // Add question content only if it's a question-type callout
 if (questionContent) {

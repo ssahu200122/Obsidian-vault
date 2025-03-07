@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "file": "Notes/Templates/Callouts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDD"
+              "title": "Callouts"
             }
           }
         ],
@@ -207,12 +207,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77ed3bce087e3c42",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
     "Notes/Templates 1",
     "Notes/resources/Pasted image 20250307105632.png",
