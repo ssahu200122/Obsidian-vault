@@ -103,6 +103,7 @@ consumes on of [0,1,2] and produces in same range.
    
 
 > [!question]- 
+> #question 
 > ![[Pasted image 20250305194155.png]]
 >> [!done] Solution
 >> ```
@@ -121,6 +122,7 @@ consumes on of [0,1,2] and produces in same range.
 >> ```
 
 > [!question]- 
+> #question 
 > ![[Pasted image 20250306211437.png]]
 >> [!done] Solution
 >> ```
