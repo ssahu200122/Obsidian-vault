@@ -239,6 +239,9 @@ data definitions are used when the information to be represented consists of two
 >> ```
 
 
+## Itemizations
+Itemizations are used for information comprised of 2 or more categories, at least one of which is not a distinct value.
+
 
 
 
