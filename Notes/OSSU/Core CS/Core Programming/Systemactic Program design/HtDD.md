@@ -219,6 +219,7 @@ data definitions are used when the information to be represented consists of two
 > [!question]-
 > #question
 >> [!done] Solution
+>> ```
 >> ;; Grade is one of:
 >> ;;      - "A"
 >> ;;      - "B"
@@ -237,5 +238,7 @@ data definitions are used when the information to be represented consists of two
 >> ;       - atomic distinct value: "A"
 >> ;       - atomic distinct value: "B"
 >> ;       - atomic distinct value: "C"
+>> ```
+
 
 

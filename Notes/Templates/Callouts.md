@@ -1,6 +1,6 @@
 <%*
 const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
-const solutionContent = await tp.system.prompt("Enter the SOLUTION content (new line → Shift+Enter):", "", true, true);
+const solutionContent = await tp.system.prompt("Enter the SOLUTION content (as code, new line → Shift+Enter):", "", true, true);
 const imagePath = await tp.system.prompt("Enter the image file name (or leave blank):", "", false);
 
 let output = "";
@@ -18,14 +18,14 @@ if (questionContent) {
     output += qLines + "\n";
 }
 
-// Start the solution block
+// Start the solution block with code formatting
 output += ">> [!done] Solution\n";
-
-// Add the solution content, each line prefixed with ">> "
+output += ">> ```\n";
 if (solutionContent) {
     const sLines = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
     output += sLines + "\n";
 }
+output += ">> ```\n";
 
 tR += output;
 -%>
