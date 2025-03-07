@@ -23,10 +23,14 @@
             "id": "c84d9441c0a6a4d7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HtDD"
             }
           }
         ],
