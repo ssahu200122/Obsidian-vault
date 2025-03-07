@@ -7,7 +7,7 @@ const callouts = {
    tip:      '🌐 🔥 Tip / Hint / Important',
    abstract: '🌐 📋 Abstract / Summary / TLDR',
    question: '🟡 ❓ Question / Help / FAQ',
-   custom_question: '🟡 📝 Custom Question',  // New custom callout
+   custom_question: '🟡 📝 Custom Question',  // Custom Question Type
    quote:    '🔘 💬 Quote / Cite',
    example:  '🟣 📑 Example',
    success:  '🟢 ✔ Success / Check / Done',
@@ -21,7 +21,7 @@ const callouts = {
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
 const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
-// Ask for question content if the selected type is 'question' or 'custom_question'
+// Ask for question content **only if** 'question' or 'custom_question' is selected
 let questionContent = '';
 if (type === 'question' || type === 'custom_question') {
    questionContent = await tp.system.prompt('Enter Question Content (New line -> Shift + Enter):', '', true, true);
@@ -30,16 +30,14 @@ if (type === 'question' || type === 'custom_question') {
 
 // Always ask for solution content
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
-solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
-solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
+solutionContent = solutionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Generate the final callout
+// Generate the main callout
 tR += `> [!${type}]${fold} ${type === 'question' || type === 'custom_question' ? 'question' : ''}\n`;
 
+// Add question content only if it's a question-type callout
 if (questionContent) {
    tR += `> #question\n${questionContent}\n`;
 }
 
-tR += `${solutionContent}`;
-
--%>
+// I
