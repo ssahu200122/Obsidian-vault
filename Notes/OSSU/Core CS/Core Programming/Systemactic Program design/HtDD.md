@@ -200,9 +200,12 @@ Use an interval when the information to be represented is numbers within a certa
 >;; SeatNumber is Integer[1,32]
 >;; interp. a seat number in a row, 1 and 32 are aisle seat
 >
->(define SN1 1)                ;aisle
->(define SN2 7)
->(define SN3 32)
+>(define SN1 1)                ; aisle
+>(define SN2 7)                ; middle
+>(define SN3 32)              ; aisle
+>
+>#;
+>(define )
 >```
 
 
