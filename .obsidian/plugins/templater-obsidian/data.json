@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "te",
+  "templates_folder": "Notes/Templates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "Notes/Templates/Callouts.md"
   ],
   "startup_templates": [
     ""
