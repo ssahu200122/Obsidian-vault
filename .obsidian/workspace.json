@@ -11,12 +11,17 @@
             "id": "33249dd60460a5d6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md"
+                "file": "Notes/utilities/Untitled.canvas",
+                "viewState": {
+                  "x": -2.5799999999999788,
+                  "y": 25.64999999999994,
+                  "zoom": 0
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "How to design data definition"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           },
           {
@@ -203,7 +208,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "919c1f38808d1d4c",
+  "active": "33249dd60460a5d6",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
