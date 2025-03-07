@@ -217,20 +217,4 @@ data definitions are used when the information to be represented consists of two
   >[!question]
   >![[Pasted image 20250307105632.png]]
 
-> [!question]- 
-> #question
-> ![[Pasted image 20250306225048.png]]
->> [!done] Solution
->> ;; SeatNumber is Natural[1,32]
->> ;; interp. a seat number in a row, 1 and 32 are aisle seat
->> 
->> (define SN1 1)                ; aisle
->> (define SN2 7)                ; middle
->> (define SN3 32)              ; aisle
->> 
->> #;
->> (define (fn-for-seat-number cn)                  ; Template
->>   (... cn))
->> 
->> ; Templates rules used:
->> ;          - atomic non-distinct: Natural[1,32
+
