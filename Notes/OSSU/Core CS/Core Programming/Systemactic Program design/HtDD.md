@@ -194,7 +194,6 @@ Use an interval when the information to be represented is numbers within a certa
 >[!question]
 >#question
 >![[Pasted image 20250306225048.png]]
-
 >[!done] Solution
 >```
 >;; SeatNumber is Natural[1,32]
@@ -218,5 +217,8 @@ data definitions are used when the information to be represented consists of two
   >[!question]
   >![[Pasted image 20250307105632.png]]
 
->[!]
+>[!done] Solution
+>```
+>
+>```
 
