@@ -198,15 +198,15 @@ Use an interval when the information to be represented is numbers within a certa
 >>```
 >>;; SeatNumber is Natural[1,32]
 >>;; interp. a seat number in a row, 1 and 32 are aisle seat
->
+>>
 >>(define SN1 1)                ; aisle
 >>(define SN2 7)                ; middle
 >>(define SN3 32)              ; aisle
->
+>>
 >>#;
 >>(define (fn-for-seat-number cn)                  ; Template
 >>	(... cn))
->
+>>
 >>; Templates rules used: 
 >>;		- atomic non-distinct: Natural[1,32]
 >>```
