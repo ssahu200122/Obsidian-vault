@@ -35,8 +35,7 @@
               "title": "Callouts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,13 +206,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e501eeeb3edb1dc5",
+  "active": "02627911a6b971ca",
   "lastOpenFiles": [
+    "Notes/Templates/Callouts.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/Templates/Callouts.md",
     "Notes/Templates 1",
     "Notes/resources/Pasted image 20250307105632.png",
     "Notes/resources/croma id D.png",
