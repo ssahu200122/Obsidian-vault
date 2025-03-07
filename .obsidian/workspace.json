@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+                "file": "Notes/Templates/Callouts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDD"
+              "title": "Callouts"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Callouts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +206,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e501eeeb3edb1dc5",
+  "active": "02627911a6b971ca",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
