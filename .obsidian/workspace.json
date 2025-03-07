@@ -25,10 +25,12 @@
             "id": "77ed3bce087e3c42",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "How to design data definition"
             }
           }
         ],
@@ -85,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
