@@ -8,34 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33249dd60460a5d6",
+            "id": "02627911a6b971ca",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Notes/utilities/Untitled.canvas",
                 "viewState": {
-                  "x": 114.34420943069252,
-                  "y": 311.11247859015356,
-                  "zoom": -0.6627532483631997
+                  "x": -4.334999721252217,
+                  "y": 450.97780584017994,
+                  "zoom": -0.9414328216467232
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
-            }
-          },
-          {
-            "id": "02627911a6b971ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/utilities/Rewards email and numbers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rewards email and numbers"
             }
           }
         ]
@@ -95,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 289.5
   },
   "right": {
     "id": "adfb45fdf6de6698",
@@ -208,23 +194,23 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "33249dd60460a5d6",
+  "active": "02627911a6b971ca",
   "lastOpenFiles": [
-    "Notes/utilities/~syncthing~Untitled.canvas.tmp",
-    "Notes/resources/Exported image 20250306064943-0.png",
-    "Notes/resources/Pasted image 20250305195041.png",
-    "Notes/utilities/Untitled.canvas",
     "Notes/resources/Pasted image 20250307084557.png",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/utilities/Rewards email and numbers.md",
     "Notes/resources/Pasted image 20250306225048.png",
     "Notes/resources/Pasted image 20250306211437.png",
+    "Notes/resources/Pasted image 20250305195041.png",
+    "Notes/resources/Pasted image 20250305194155.png",
+    "Notes/resources/Pasted image 20250305192632.png",
+    "Notes/resources/Pasted image 20250305012745.png",
+    "Notes/resources/Exported image 20250306064943-0.png",
+    "Notes/utilities/Untitled.canvas",
+    "Notes/utilities/~syncthing~Untitled.canvas.tmp",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/resources/shivani.png",
     "Notes/resources/croma sourabh 2.png",
-    "Notes/resources/croma sachin1.png",
-    "Notes/resources/croma id F.png",
-    "Notes/resources/croma id E.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
     "OneNote/git and gitHub/git harry/To create new branch use,.md",
@@ -255,7 +241,6 @@
     "Excalidraw/OSSU 2025-03-05 10.52.42.excalidraw.md",
     "Excalidraw/OSSU 2025-03-05 10.50.57.excalidraw.md",
     "Excalidraw/cropped_Screenshot 2024-11-04 205015.md",
-    "Notes/Demo note.md",
-    "Notes/Excalidraw/~syncthing~Drawing 2025-03-05 07.18.50.excalidraw.sync-conflict-20250305-103644-QKYQZBM.md.tmp"
+    "Notes/Demo note.md"
   ]
 }
