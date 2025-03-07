@@ -99,7 +99,8 @@ consumes on of [0,1,2] and produces in same range.
 
 > [!info] 
 > (define (fn-for-type-name x)
-   %<body>)%
+  (body))
+   
 
 > [!question]- 
 > ![[Pasted image 20250305194155.png]]
