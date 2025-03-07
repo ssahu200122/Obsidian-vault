@@ -7,6 +7,7 @@ const callouts = {
    tip:      '🌐 🔥 Tip / Hint / Important',
    abstract: '🌐 📋 Abstract / Summary / TLDR',
    question: '🟡 ❓ Question / Help / FAQ',
+   custom_question: '🟡 📝 Custom Question',  // New callout type
    quote:    '🔘 💬 Quote / Cite',
    example:  '🟣 📑 Example',
    success:  '🟢 ✔ Success / Check / Done',
@@ -25,10 +26,10 @@ content = content.split('\n').map(line => `> ${line}`).join('\n');
 
 let calloutHead = `> [!${type}]${fold} ${title}\n`;
 
-// Special handling for "question" callout
-if (type === 'question') {
+// Special handling for "custom_question" callout
+if (type === 'custom_question') {
    calloutHead += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
-   content += `\n>> [!done] Solution\n>> \`\`\`\n>> ;; SeatNumber is Natural[1,32]\n>> ;; interp. a seat number in a row, 1 and 32 are aisle seats\n>>\n>> (define SN1 1)                ; aisle\n>> (define SN2 7)                ; middle\n>> (define SN3 32)              ; aisle\n>>\n>> #;\n>> (define (fn-for-seat-number cn)                  ; Template\n>>     (... cn))\n>>\n>> ; Templates rules used:\n>> ;       - atomic non-distinct: Natural[1,32]\n>> \`\`\``;
+   content += `\n>> [!done] Solution\n>> \`\`\`\n>> ;; SeatNumber is Natural[1,32]\n>> ;; interp. a seat number in a row, 1 and 32 are aisle seats\n>>\n>> (define SN1 1)                ; aisle\n>> (define SN2 7)                ; middle\n>> (define SN3 32)               ; aisle\n>>\n>> #;\n>> (define (fn-for-seat-number cn)  ; Template\n>>     (... cn))\n>>\n>> ; Templates rules used:\n>> ;       - atomic non-distinct: Natural[1,32]\n>> \`\`\``;
 }
 
 tR += calloutHead + content;
