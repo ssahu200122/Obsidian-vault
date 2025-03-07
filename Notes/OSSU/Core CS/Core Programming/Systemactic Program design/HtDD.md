@@ -214,7 +214,6 @@ Use an interval when the information to be represented is numbers within a certa
 ## Enumeration 
 data definitions are used when the information to be represented consists of two or more distinct values.
 
-  >[!question]
-  >![[Pasted image 20250307105632.png]]
+
 
 
