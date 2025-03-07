@@ -23,14 +23,13 @@ let content = await tp.system.prompt('Solution Content (New line -> Shift + Ente
 
 content = content.split('\n').map(line => `>> ${line}`).join('\n');  // Indent solution content
 
-let calloutHead = `> [!${type}]${fold} question\n`;  // Fixed title
-
-// Special handling for "custom_question" callout
+// Force custom_question to have its own formatting
 if (type === 'custom_question') {
-   calloutHead += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
-   content = `>> [!done] Solution\n${content}`;
+   tR += `> [!custom_question]${fold} question\n`;  
+   tR += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
+   tR += `>> [!done] Solution\n${content}`;
+} else {
+   tR += `> [!${type}]${fold} question\n${content}`;
 }
-
-tR += calloutHead + content;
 
 -%>
