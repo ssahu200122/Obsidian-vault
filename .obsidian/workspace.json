@@ -11,14 +11,12 @@
             "id": "02627911a6b971ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/resources/croma id D.png"
               },
-              "icon": "lucide-file",
-              "title": "HtDD"
+              "icon": "lucide-image",
+              "title": "croma id D"
             }
           }
         ]
@@ -193,6 +191,7 @@
   },
   "active": "02627911a6b971ca",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/utilities/Croma Cards.canvas",
     "Notes/resources/Pasted image 20250307084557.png",
     "Notes/utilities/Rewards email and numbers.md",
@@ -205,7 +204,6 @@
     "Notes/resources/Exported image 20250306064943-0.png",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/resources/shivani.png",
     "Notes/resources/croma sourabh 2.png",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
