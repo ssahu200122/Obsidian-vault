@@ -28,17 +28,17 @@ if (type === 'custom_question') {
    questionContent = await tp.system.prompt('Question Content (New line -> Shift + Enter):', '', true, true);
 }
 
-// Wrap question content inside a code block
-questionContent = "```\n" + questionContent + "\n```";
+// Format question content (add `> ` at the beginning of each line)
+questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Format solution content (add `>> ` at the beginning of each line)
-solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
+// Wrap solution content inside a code block
+solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 
 // Force custom_question to have its own formatting
 if (type === 'custom_question') {
    tR += `> [!custom_question]${fold} question\n`;  
-   tR += `> #question\n> ${questionContent}\n`;  // Insert question content as code block
-   tR += `>> [!done] Solution\n${solutionContent}`;
+   tR += `> #question\n${questionContent}\n`;
+   tR += `${solutionContent}`;
 } else {
    tR += `> [!${type}]${fold} question\n${solutionContent}`;
 }
