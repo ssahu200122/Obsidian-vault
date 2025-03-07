@@ -30,6 +30,7 @@ if (type === 'question' || type === 'custom_question') {
 
 // Always ask for solution content
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
+solutionContent = solutionContent.split('\n').map(line => `> ${line}`).join('\n');
 
 // Generate the main callout
 tR += `> [!${type}]${fold}${type === 'question' || type === 'custom_question' ? ' question' : ''}\n`;
@@ -39,12 +40,12 @@ if (questionContent) {
    tR += `> #question\n${questionContent}\n`;
 }
 
-// If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout as code**
+// If it's a question-type callout, **nest the solution inside a `[!done] Solution` callout**
 if (type === 'question' || type === 'custom_question') {
    tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 } else {
-   // If it's NOT a question, insert solution as regular text (NOT as code)
-   tR += `> ${solutionContent}`;
+   // If it's NOT a question, just insert the solution normally
+   tR += `> \`\`\`\n${solutionContent}\n> \`\`\``;
 }
 
 -%>
