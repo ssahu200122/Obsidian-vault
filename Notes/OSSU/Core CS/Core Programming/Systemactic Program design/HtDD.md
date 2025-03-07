@@ -216,3 +216,23 @@ data definitions are used when the information to be represented consists of two
 
 
 
+> [!question]- Question
+> ;; Grade is one of:
+> ;;      - "A"
+> ;;      - "B"
+> ;;      - "C"
+> ;; interp. a letter grade in a course
+> ;; examples are redundant for enumeration
+> #;
+> (define (fn-for-grade g)
+>   (cond [(string=? g "A")(..)]
+>         [(string=? g "B")(..)]
+>         [else (...)]
+>  )
+> )
+> ; Templates rules used:
+> ;       - one of: 3 cases
+> ;       - atomic distinct value: "A"
+> ;       - atomic distinct value: "B"
+> ;       - atomic distinct value: "C"
+
