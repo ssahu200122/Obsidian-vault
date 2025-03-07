@@ -1,31 +1,59 @@
 <%*
-const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
-const solutionContent = await tp.system.prompt("Enter the SOLUTION content (as code, new line → Shift+Enter):", "", true, true);
-const imagePath = await tp.system.prompt("Enter the image file name (or leave blank):", "", false);
+const callouts = {
+  note: '🔵 ✏ Note', 
+  info: '🔵 ℹ Info',
+  todo: '🔵 🔳 Todo', 
+  tip: '🌐 🔥 Tip / Hint / Important', 
+  abstract: '🌐 📋 Abstract / Summary / TLDR', 
+  question: '🟡 ❓ `Question` / Help / FAQ', 
+  custom_question: '🟡 ❓ Custom Question (with solution code)',
+  quote: '🔘 💬 Quote / Cite', 
+  example: '🟣 📑 Example', 
+  success: '🟢 ✔ Success / Check / Done', 
+  warning: '🟠 ⚠ Warning / Caution / Attention', 
+  failure: '🔴 ❌ Failure / Fail / Missing', 
+  danger: '🔴 ⚡ Danger / Error', 
+  bug: '🔴 🐞 Bug'
+};
 
-let output = "";
-output += "> [!question]-\n";
-output += "> #question\n";
+const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
+const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
+const title = await tp.system.prompt('Title:', '', true);
+const calloutHead = `> [!${type}]${fold} ${title}\n`;
 
-// Insert image if provided
-if (imagePath && imagePath.trim() !== "") {
-    output += `> ![[${imagePath.trim()}]]\n`;
+if (type === "custom_question") {
+    // Custom question callout with dynamic question content, optional image, and solution content as code.
+    const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
+    const imagePath = await tp.system.prompt("Enter the image file name (or leave blank):", "", false);
+    const solutionContent = await tp.system.prompt("Enter the SOLUTION content (as code, new line → Shift+Enter):", "", true, true);
+
+    let content = "";
+    if (imagePath && imagePath.trim() !== "") {
+        content += `> ![[${imagePath.trim()}]]\n`;
+    }
+    if (questionContent) {
+        content += questionContent.split('\n').map(line => `> ${line}`).join('\n') + "\n";
+    }
+    content += ">> [!done] Solution\n";
+    content += ">> ```\n";
+    if (solutionContent) {
+        content += solutionContent.split('\n').map(line => `>> ${line}`).join('\n') + "\n";
+    }
+    content += ">> ```\n";
+
+    tR += calloutHead + content;
+} else if (type === "question") {
+    // Regular question callout prompts for question content only.
+    const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
+    let content = "";
+    if (questionContent) {
+        content += questionContent.split('\n').map(line => `> ${line}`).join('\n') + "\n";
+    }
+    tR += calloutHead + content;
+} else {
+    // For all other callout types, prompt for generic content.
+    let content = await tp.system.prompt('Content (New line -> Shift+Enter):', '', true, true);
+    content = content.split('\n').map(line => `> ${line}`).join('\n');
+    tR += calloutHead + content;
 }
-
-// Add the question content, each line prefixed with "> "
-if (questionContent) {
-    const qLines = questionContent.split('\n').map(line => `> ${line}`).join('\n');
-    output += qLines + "\n";
-}
-
-// Start the solution block with code formatting
-output += ">> [!done] Solution\n";
-output += ">> ```\n";
-if (solutionContent) {
-    const sLines = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
-    output += sLines + "\n";
-}
-output += ">> ```\n";
-
-tR += output;
 -%>
