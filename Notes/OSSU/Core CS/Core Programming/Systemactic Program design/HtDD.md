@@ -197,7 +197,7 @@ Use an interval when the information to be represented is numbers within a certa
 
 >[!done] Solution
 >```
->;; SeatNumber is Integer[1,32]
+>;; SeatNumber is Natural[1,32]
 >;; interp. a seat number in a row, 1 and 32 are aisle seat
 >
 >(define SN1 1)                ; aisle
@@ -209,7 +209,7 @@ Use an interval when the information to be represented is numbers within a certa
 >	(... cn))
 >
 >; Templates rules used: 
->		- 
+>		- atomic non-distinct: Natural[1,32]
 >```
 
 
