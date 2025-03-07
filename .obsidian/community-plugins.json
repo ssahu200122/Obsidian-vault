@@ -4,5 +4,6 @@
   "dataview",
   "calendar",
   "obsidian-importer",
-  "templater-obsidian"
+  "templater-obsidian",
+  "drawio-obsidian"
 ]
