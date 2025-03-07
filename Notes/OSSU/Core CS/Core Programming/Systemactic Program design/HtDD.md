@@ -208,6 +208,7 @@ Use an interval when the information to be represented is numbers within a certa
 data definitions are used when the information to be represented consists of two or more distinct values.
 
 > [!question]- 
+> #question 
 > ![[Pasted image 20250307151429.png]]
 >> [!done] Solution
 >> ```
@@ -236,6 +237,7 @@ data definitions are used when the information to be represented consists of two
 Itemizations are used for information comprised of 2 or more categories, at least one of which is not a distinct value.
 
 > [!question]- 
+> #question 
 > ![[Pasted image 20250307182136.png]]
 >> [!done] Solution
 >> ```
@@ -268,11 +270,4 @@ Itemizations are used for information comprised of 2 or more categories, at leas
 
 
 
-
-
-> [!question] 
-#question>> [!done] Solution
->> ```
->> dsdsds
->> ```
 
