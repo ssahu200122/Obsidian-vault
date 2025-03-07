@@ -18,29 +18,18 @@ const callouts = {
 };
 
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
-let questionContent = "";
-let solutionContent = await tp.system.prompt('Solution Content (New line -> Shift + Enter):', '', true, true);
+let content = await tp.system.prompt('Solution Content (New line -> Shift + Enter):', '', true, true);
 
-// If user selects "custom_question", ask for question content too
-if (type === 'custom_question') {
-   questionContent = await tp.system.prompt('Question Content (New line -> Shift + Enter):', '', true, true);
-}
-
-// Format question content (add `> ` at the beginning of each line)
-questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
-
-// Format solution content (add `>> ` at the beginning of each line)
-solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
+content = content.split('\n').map(line => `>> ${line}`).join('\n');  // Indent solution content
 
 // Force custom_question to have its own formatting
 if (type === 'custom_question') {
-   tR += `> [!custom_question]${fold} question\n`;  
-   tR += `> #question\n${questionContent}\n`;  // Add user inputted question content
-   tR += `>> [!done] Solution\n${solutionContent}`;
+   tR += `> [!question]- \n`;  
+   tR += `> #question\n> ![[Pasted image 20250306225048.png]]\n`;
+   tR += `>> [!done] Solution\n${content}`;
 } else {
-   tR += `> [!${type}]${fold} question\n${solutionContent}`;
+   tR += `> [!${type}]${fold} question\n${content}`;
 }
 
 -%>
