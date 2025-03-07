@@ -242,6 +242,36 @@ data definitions are used when the information to be represented consists of two
 ## Itemizations
 Itemizations are used for information comprised of 2 or more categories, at least one of which is not a distinct value.
 
+> [!question]- 
+> ![[Pasted image 20250307182136.png]]
+>> [!done] Solution
+>> ```
+>> ;; Countdown is one of:
+>> ;;      - false
+>> ;;      - Natural[1,10]
+>> ;;      - "complete"
+>> ;; interp. 
+>> ;       - false means countdown not started
+>> ;       - Interger[1,10] represents seconds remaining
+>> ;       - "complete means countdown is over"
+>> 
+>> (define CD1 false)                   ;countdown not started
+>> (define CD2 5)                       ;5 seconds remaining
+>> (define CD3 "complete")              ;countdown is complete
+>> 
+>> #;
+>> (define (fn-for-countdown cd)
+>>   (cond [(false? cd) (...)]
+>>         [(and (number? cd) (<= 1 cd) (<= cd 10)) (...cd )]
+>>         [else (...)]
+>>  )
+>> )
+>> ; Templates rules used:
+>> ;       - one of: 3 cases
+>> ;       - atomic distinct value: false
+>> ;       - atomic non-distinct value: Natural[1,10]
+>> ;       - atomic distinct value: "complete"
+>> ```
 
 
 
