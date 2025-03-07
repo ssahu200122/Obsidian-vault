@@ -220,14 +220,6 @@ data definitions are used when the information to be represented consists of two
 > 
 >> [!done] Solution
 >> ```
-daadljdl
-dlksjlajdlads
->> ```
-> [!custom_question]- question
-> #question
-> 
->> [!done] Solution
->> ```
 ;; Grade is one of:
 ;;      - "A"
 ;;      - "B"
