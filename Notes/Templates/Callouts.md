@@ -16,12 +16,15 @@ const callouts = {
   bug: '🔴 🐞 Bug'
 };
 
-const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
+const selectedCallout = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
 const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 const title = await tp.system.prompt('Title:', '', true);
-const calloutHead = `> [!${type}]${fold} ${title}\n`;
 
-if (type === "custom_question") {
+// Use "question" in the header if "custom_question" is selected.
+const headerType = selectedCallout === "custom_question" ? "question" : selectedCallout;
+const calloutHead = `> [!${headerType}]${fold} ${title}\n`;
+
+if (selectedCallout === "custom_question") {
     // Custom question callout with dynamic question content, optional image, and solution content as code.
     const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
     const imagePath = await tp.system.prompt("Enter the image file name (or leave blank):", "", false);
@@ -42,7 +45,7 @@ if (type === "custom_question") {
     content += ">> ```\n";
 
     tR += calloutHead + content;
-} else if (type === "question") {
+} else if (selectedCallout === "question") {
     // Regular question callout prompts for question content only.
     const questionContent = await tp.system.prompt("Enter the QUESTION content (new line → Shift+Enter):", "", true, true);
     let content = "";
