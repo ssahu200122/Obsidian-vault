@@ -39,7 +39,7 @@ solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\`
 
 // Apply formatting based on type
 if (type === 'custom_question') {
-   tR += `> [!custom_question]${fold} question\n`;  
+   tR += `> [!question]- question\n`;  
    tR += `> #question\n${questionContent}\n`;
    tR += `${solutionContent}`;
 } else {
