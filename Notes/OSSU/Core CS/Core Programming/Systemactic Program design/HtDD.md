@@ -205,7 +205,11 @@ Use an interval when the information to be represented is numbers within a certa
 >(define SN3 32)              ; aisle
 >
 >#;
->(define )
+>(define (fn-for-seat-number cn)                  ; Template
+>	(... cn))
+>
+>; Templates rules used: 
+>		- 
 >```
 
 
