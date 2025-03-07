@@ -197,7 +197,10 @@ Use an interval when the information to be represented is numbers within a certa
 
 >[!done] Solution
 >```
->;; SeatNumber is Integer[]
+>;; SeatNumber is Integer[1,32]
+>;; interp. a seat number in a row, 1 and 32 are aisle seat
+>
+>
 >```
 
 
