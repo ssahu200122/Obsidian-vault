@@ -37,14 +37,12 @@
             "id": "714010a3098b0041",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram-edit",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled Diagram.svg"
               },
               "icon": "lucide-file",
-              "title": "DtDW"
+              "title": "Untitled Diagram.svg"
             }
           }
         ],
@@ -221,8 +219,9 @@
   },
   "active": "714010a3098b0041",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
+    "Untitled Diagram.svg",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
     "Pasted image 20250307182136.png",
@@ -240,7 +239,6 @@
     "Notes/resources/Pasted image 20250306225048.png",
     "Notes/resources/Pasted image 20250306211437.png",
     "Notes/resources/Pasted image 20250305195041.png",
-    "Notes/resources/Pasted image 20250305194155.png",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
@@ -266,7 +264,6 @@
     "Notes/Excalidraw/demo note.md",
     "Notes/Excalidraw/Excalidraw cheat sheet.md",
     "Excalidraw/OSSU 2025-03-05 10.52.42.excalidraw.md",
-    "Excalidraw/OSSU 2025-03-05 10.50.57.excalidraw.md",
-    "Excalidraw/cropped_Screenshot 2024-11-04 205015.md"
+    "Excalidraw/OSSU 2025-03-05 10.50.57.excalidraw.md"
   ]
 }
