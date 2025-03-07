@@ -195,8 +195,8 @@ Use an interval when the information to be represented is numbers within a certa
 >#question
 >![[Pasted image 20250306225048.png]]
 
-
-
+>[!done] Solution
+>
 ```
 ;; SeatNumber is Natural[1,32]
 
