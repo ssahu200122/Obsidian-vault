@@ -97,16 +97,9 @@ consumes on of [0,1,2] and produces in same range.
 
 ### For a given type TypeName the data driven template is:
 
-```
-(define (fn-for-type-name x)
-  <body>)
-```
-
-
-
-
-
-
+> [!info] 
+> (define (fn-for-type-name x)
+   %<body>)%
 
 > [!question]- 
 > ![[Pasted image 20250305194155.png]]
@@ -125,7 +118,6 @@ consumes on of [0,1,2] and produces in same range.
 >> ;; Template rules used: 
 >> ;;         -atomic non-distinct: String 
 >> ```
-
 
 > [!question]- 
 > ![[Pasted image 20250306211437.png]]
