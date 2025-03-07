@@ -227,14 +227,14 @@ data definitions are used when the information to be represented consists of two
 >> ;; examples are redundant for enumeration
 >> >> #;
 >> (define (fn-for-grade g)
->>   (cond [(string=? g "A")(..)]
+>>  (cond [(string=? g "A")(..)]
 >>         [(string=? g "B")(..)]
 >>         [else (...)]
 >>         )
 >> )
 >> ; Templates rules used:
->> ;       - one of: 3 cases
->> ;       - atomic distinct value: "A"
->> ;       - atomic distinct value: "B"
->> ;       - atomic distinct value: "C"
+>> ;          - one of: 3 cases
+>> ;          - atomic distinct value: "A"
+>> ;          - atomic distinct value: "B"
+>> ;          - atomic distinct value: "C"
 
