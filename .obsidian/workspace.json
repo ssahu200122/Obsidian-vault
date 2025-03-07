@@ -11,17 +11,10 @@
             "id": "02627911a6b971ca",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Notes/utilities/Croma Cards.canvas",
-                "viewState": {
-                  "x": 232.99712093649134,
-                  "y": 347.7682713956177,
-                  "zoom": -0.8093586557958453
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Croma Cards"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -196,6 +189,7 @@
   },
   "active": "02627911a6b971ca",
   "lastOpenFiles": [
+    "Notes/utilities/Croma Cards.canvas",
     "Notes/resources/Pasted image 20250307084557.png",
     "Notes/utilities/Rewards email and numbers.md",
     "Notes/resources/Pasted image 20250306225048.png",
@@ -205,7 +199,6 @@
     "Notes/resources/Pasted image 20250305192632.png",
     "Notes/resources/Pasted image 20250305012745.png",
     "Notes/resources/Exported image 20250306064943-0.png",
-    "Notes/utilities/Croma Cards.canvas",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",

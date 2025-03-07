@@ -4,9 +4,9 @@
 		{"id":"2f46729193ebb6eb","type":"file","file":"Notes/resources/croma id E.png","x":-200,"y":-240,"width":400,"height":371},
 		{"id":"03ab5259a4fb8df6","type":"file","file":"Notes/resources/croma id F.png","x":260,"y":-240,"width":400,"height":335},
 		{"id":"9611b343e601af11","type":"file","file":"Notes/resources/croma sachin1.png","x":-660,"y":240,"width":400,"height":268},
-		{"id":"8c8846d857e22921","x":260,"y":240,"width":400,"height":245,"type":"file","file":"Notes/resources/shivani.png"},
+		{"id":"8c8846d857e22921","type":"file","file":"Notes/resources/shivani.png","x":260,"y":240,"width":400,"height":245},
 		{"id":"3ef6947fb833c2f7","type":"file","file":"Notes/resources/croma sourabh 2.png","x":-200,"y":200,"width":394,"height":400},
-		{"id":"eb9ee225eabcc2f0","x":-660,"y":640,"width":400,"height":262,"type":"file","file":"Notes/resources/Pasted image 20250307084557.png"}
+		{"id":"eb9ee225eabcc2f0","type":"file","file":"Notes/resources/Pasted image 20250307084557.png","x":-660,"y":640,"width":399,"height":262}
 	],
 	"edges":[]
 }
