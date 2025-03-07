@@ -27,10 +27,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md"
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md"
               },
               "icon": "excalidraw-icon",
-              "title": "How to design data definition"
+              "title": "How to design functions Recipe"
             }
           }
         ],
@@ -205,10 +205,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983833e96d25b7cb",
+  "active": "16d52d9b50750883",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design data definition.md",
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
     "Notes/Templates 1",
     "Notes/resources/Pasted image 20250307105632.png",
@@ -238,7 +239,6 @@
     "OneNote",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDF.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
     "Excalidraw/Scripts/Downloaded/Set Dimensions.md",
     "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.md",
