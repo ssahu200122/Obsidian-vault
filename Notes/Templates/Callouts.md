@@ -17,33 +17,22 @@ const callouts = {
    bug:      '🔴 🐞 Bug',
 };
 
-const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-//const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
+// Question popup first
+let questionContent = await tp.system.prompt('Enter Question Content (New line -> Shift + Enter):', '', true, true);
 
-let questionContent = "";
-let solutionContent = await tp.system.prompt('Solution Content (New line -> Shift + Enter):', '', true, true);
+// Solution popup second
+let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
 
-// If user selects "custom_question", ask for question content too
-if (type === 'custom_question') {
-   questionContent = await tp.system.prompt('Question Content (New line -> Shift + Enter):', '', true, true);
-}
-
-// Format question content (add `> ` at the beginning of each line)
+// Format question content
 questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Ensure the solution content is fully nested inside the callout
+// Ensure the solution content is properly formatted inside `[!done] Solution]`
 solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
-
-// Wrap solution content properly inside `[!done] Solution]`
 solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 
-// Apply formatting based on type
-if (type === 'custom_question') {
-   tR += `> [!question]- \n`;  
-   tR += `> #question\n${questionContent}\n`;
-   tR += `${solutionContent}`;
-} else {
-   tR += `> [!${type}]${fold} question\n${solutionContent}`;
-}
+// Generate the final callout
+tR += `> [!question]- \n`;
+tR += `> #question\n${questionContent}\n`;
+tR += `${solutionContent}`;
 
 -%>
