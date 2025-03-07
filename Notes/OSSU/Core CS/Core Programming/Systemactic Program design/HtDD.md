@@ -195,21 +195,21 @@ Use an interval when the information to be represented is numbers within a certa
 >#question
 >![[Pasted image 20250306225048.png]]
 >>[!done] Solution
->```
->;; SeatNumber is Natural[1,32]
->;; interp. a seat number in a row, 1 and 32 are aisle seat
+>>```
+>>;; SeatNumber is Natural[1,32]
+>>;; interp. a seat number in a row, 1 and 32 are aisle seat
 >
->(define SN1 1)                ; aisle
->(define SN2 7)                ; middle
->(define SN3 32)              ; aisle
+>>(define SN1 1)                ; aisle
+>>(define SN2 7)                ; middle
+>>(define SN3 32)              ; aisle
 >
->#;
->(define (fn-for-seat-number cn)                  ; Template
->	(... cn))
+>>#;
+>>(define (fn-for-seat-number cn)                  ; Template
+>>	(... cn))
 >
->; Templates rules used: 
->;		- atomic non-distinct: Natural[1,32]
->```
+>>; Templates rules used: 
+>>;		- atomic non-distinct: Natural[1,32]
+>>```
 
 ## Enumeration 
 data definitions are used when the information to be represented consists of two or more distinct values.
