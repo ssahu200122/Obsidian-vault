@@ -25,15 +25,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "utilities/Untitled.canvas",
+                "file": "utilities/Croma Cards.canvas",
                 "viewState": {
-                  "x": 12.215330970252367,
-                  "y": 120.30836965169115,
-                  "zoom": -2.1354100884027614
+                  "x": 192.04856674543765,
+                  "y": 363.3980377430224,
+                  "zoom": -1.8854402357371447
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "title": "Croma Cards"
             }
           }
         ],
@@ -169,7 +169,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "23da5b87dfc9190d",
+  "active": "c84d9441c0a6a4d7",
   "lastOpenFiles": [
     "resources/Pasted image 20250305012745.png",
     "resources/croma id D.png",
