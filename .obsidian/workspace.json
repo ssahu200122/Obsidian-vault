@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "d2910cabfc41890c",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg"
+              },
+              "icon": "lucide-file",
+              "title": "Untitled Diagram 1.svg"
+            }
+          },
+          {
             "id": "538afe8963691a5e",
             "type": "leaf",
             "state": {
@@ -45,8 +57,7 @@
               "title": "How to design world"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,8 +228,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "538afe8963691a5e",
+  "active": "02627911a6b971ca",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/DtDW.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/HtDD.md",
@@ -238,7 +250,6 @@
     "Notes/resources/Pasted image 20250307084557.png",
     "Notes/utilities/Rewards email and numbers.md",
     "Notes/resources/Pasted image 20250306225048.png",
-    "Notes/resources/Pasted image 20250306211437.png",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/~syncthing~How to design functions Recipe.md.tmp",
     "OneNote/git and gitHub/git harry/Use, $ git add filename to stage a file.md",
