@@ -18,7 +18,7 @@ const callouts = {
 };
 
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
+//const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
 let questionContent = "";
 let solutionContent = await tp.system.prompt('Solution Content (New line -> Shift + Enter):', '', true, true);
