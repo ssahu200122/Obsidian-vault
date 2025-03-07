@@ -31,10 +31,13 @@ if (type === 'custom_question') {
 // Format question content (add `> ` at the beginning of each line)
 questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
 
-// Wrap solution content inside a code block
+// Ensure the solution content is fully nested inside the callout
+solutionContent = solutionContent.split('\n').map(line => `>> ${line}`).join('\n');
+
+// Wrap solution content properly inside `[!done] Solution]`
 solutionContent = `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;
 
-// Force custom_question to have its own formatting
+// Apply formatting based on type
 if (type === 'custom_question') {
    tR += `> [!custom_question]${fold} question\n`;  
    tR += `> #question\n${questionContent}\n`;
