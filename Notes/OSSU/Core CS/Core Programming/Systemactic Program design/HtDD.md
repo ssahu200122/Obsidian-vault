@@ -125,42 +125,42 @@ consumes on of [0,1,2] and produces in same range.
 >;; Template rules used: 
 >;;         -atomic non-distinct: String 
 
->[!question]
->#question
->![[Pasted image 20250306211437.png]]
 
- >[!success] Solution
- >```
- >;; Data definitions: 
- >
- > ;; CityName is  Stirng                                 ; type comment
-> ;; interp. the name of a city                        ;interpretation
-> 
->(define C1 "Mumbai")
->(define C2 "Dehli")                                    ; Examples
->
->#;
->(define (fn-for-city-name cn)                     ;Template
->      (... cn))
->      
->;; Template rules used: 
->;;         -atomic non-distinct: String 
->
->;;Funtioins:
->
->;; CityName -> Boolean
->;; Produces true if city is best in the world
->
-(check-expect (best-city? "Dehli")false)
-(check-expect (best-city? "Jabalpur")true)
->
->;(define (best-city? cn)false)                   ; stub
->
->; took templatae form CityName:
->
->(define (best-city? cn)                     
->      (string=? cn "Jabalpur"))
->```
+
+> [!question]- 
+> ![[Pasted image 20250306211437.png]]
+>> [!done] Solution
+>> ```
+>> ;; Data definitions: 
+>> 
+>> ;; CityName is  Stirng                                 ; type comment
+>> ;; interp. the name of a city                        ;interpretation
+>> 
+>> (define C1 "Mumbai")
+>> (define C2 "Dehli")                                    ; Examples
+>> 
+>> #;
+>> (define (fn-for-city-name cn)                     ;Template
+>>      (... cn))
+>>      
+>> ;; Template rules used: 
+>> ;;         -atomic non-distinct: String 
+>> 
+>> ;;Funtioins:
+>> 
+>> ;; CityName -> Boolean
+>> ;; Produces true if city is best in the world
+>> 
+>> (check-expect (best-city? "Dehli")false)
+>> (check-expect (best-city? "Jabalpur")true)
+>> 
+>> ;(define (best-city? cn)false)                   ; stub
+>> 
+>> ; took templatae form CityName:
+>> 
+>> (define (best-city? cn)                     
+>>      (string=? cn "Jabalpur"))
+>> ```
 
 
 ```mermaid
