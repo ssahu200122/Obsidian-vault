@@ -25,19 +25,20 @@ const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '
 let questionContent = '';
 if (type === 'question' || type === 'custom_question') {
    questionContent = await tp.system.prompt('Enter Question Content (New line -> Shift + Enter):', '', true, true);
-   questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');
+   questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');  // **Ensure it's properly formatted**
 }
 
 // Always ask for solution content
 let solutionContent = await tp.system.prompt('Enter Solution Content (New line -> Shift + Enter):', '', true, true);
 
 // Generate the main callout
-tR += `> [!${type}]${fold} question\n`;  // Ensure "question" label is correct
+tR += `> [!${type}]${fold} question\n`;  
 
 // Add question content only if it's a question-type callout
 if (type === 'question' || type === 'custom_question') {
-   tR += `> #question\n${questionContent}\n`;  // **Now question content is included!**
-   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // Nest solution inside [!done] Solution
+   tR += `> #question\n`;  // **Question header**
+   tR += `${questionContent}\n\n`;  // **Now ensures question text appears!**
+   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // **Ensures solution is inside the done block**
 } else {
    // If it's NOT a question, insert solution as regular text (NOT as code)
    tR += `> ${solutionContent}`;
