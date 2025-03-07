@@ -7,7 +7,7 @@ const callouts = {
    tip:      '🌐 🔥 Tip / Hint / Important',
    abstract: '🌐 📋 Abstract / Summary / TLDR',
    question: '🟡 ❓ Question / Help / FAQ',
-   custom_question: '🟡 📝 Custom Question',  // Custom Question Type
+   custom_question: '🟡 📝 Custom Question',  
    quote:    '🔘 💬 Quote / Cite',
    example:  '🟣 📑 Example',
    success:  '🟢 ✔ Success / Check / Done',
@@ -21,9 +21,9 @@ const callouts = {
 const type = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
 const fold = await tp.system.suggester(['None', 'Expanded', 'Collapsed'], ['', '+', '-'], true, 'Select callout fold option.');
 
-// Ask for question content **only if** 'question' or 'custom_question' is selected
+// Ask for question content **only if** 'custom_question' is selected
 let questionContent = '';
-if (type === 'question' || type === 'custom_question') {
+if (type === 'custom_question') {
    questionContent = await tp.system.prompt('Enter Question Content (New line -> Shift + Enter):', '', true, true);
    questionContent = questionContent.split('\n').map(line => `> ${line}`).join('\n');  // Ensure proper formatting
 }
@@ -34,15 +34,15 @@ let solutionContent = await tp.system.prompt('Enter Solution Content (New line -
 // Generate the main callout
 tR += `> [!${type}]${fold} question\n`;  
 
-// Add question content **only if** it's a question-type callout
-if (type === 'question' || type === 'custom_question') {
-   tR += `> #question\n`;  // Question header
+// Add question content **only if** it's a 'custom_question' callout
+if (type === 'custom_question') {
+   tR += `> #question\n`;  // Add question header
    tR += `${questionContent}\n\n`;  // **Now ensures question text appears!**
 }
 
-// Add the solution **only if it's a question-type callout**
-if (type === 'question' || type === 'custom_question') {
-   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // Solution is inside [!done]
+// Add the solution **only if it's a 'custom_question'**
+if (type === 'custom_question') {
+   tR += `>> [!done] Solution\n>> \`\`\`\n${solutionContent}\n>> \`\`\``;  // Solution inside [!done]
 } else {
    // If it's NOT a question, insert solution as regular text (NOT as code)
    tR += `> ${solutionContent}`;
