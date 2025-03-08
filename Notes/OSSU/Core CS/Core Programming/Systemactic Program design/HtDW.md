@@ -115,7 +115,11 @@ World program design is divided into two phases, each of which has sub-parts:
 (define cx Width)            ; End of the screen, to Right
 
 #;
-(define (fn-for-cat-x cx))
+(define (fn-for-cat-x cx)
+           (... cx))
+           
+;; Template rules used:
+;;          - atomic
 
 
 
