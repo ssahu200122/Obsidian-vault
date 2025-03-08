@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,10 +248,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c3134077b3e5c14",
+  "active": "80cf89c29f3b62de",
   "lastOpenFiles": [
-    "Notes/Templates/Callouts.md",
     "Notes/Templates/checkbox dsa tmpt.md",
+    "Notes/Templates/Callouts.md",
     "Notes/TUF DSA/Hard.md",
     "Notes/TUF DSA/Easy.md",
     "Solve Problems on Arrays (Easy,Medium,hard).md",
