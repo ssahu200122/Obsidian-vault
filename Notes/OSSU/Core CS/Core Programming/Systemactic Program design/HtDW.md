@@ -12,6 +12,6 @@
 4. Identify big bang options
 
 
-
+![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^frame=fPnNmqOQz-6ee3iv4E20A]]
 
 
