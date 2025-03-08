@@ -11,6 +11,6 @@
 3. Find changing information
 4. Identify big bang options
 
-![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^group=dtCfPt_MBx9qpQzfh2SQj]]
 
 
+![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^area=dtCfPt_MBx9qpQzfh2SQj]]
