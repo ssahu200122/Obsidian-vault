@@ -3,18 +3,20 @@ const heading = await tp.system.prompt("Enter heading:");
 
 tR += `# ${heading}
 
-### ✅ Overall Progress  
-- [ ] **Overall Done** (Automatically checked when all sub-tasks are done)
+- [ ] **Overall Done** <!-- This gets checked when all sub-checkboxes are checked -->
+  - [ ] Article  
+  - [ ] YouTube  
+  - [ ] Note  
 
-### 📝 Subtasks
-- [ ] Article
-- [ ] YouTube
-- [ ] Note
+\`\`\`dataviewjs
+const overall = dv.container.querySelector("ul > li:first-child input");
+const subCheckboxes = dv.container.querySelectorAll("ul > li > ul > li input");
 
-### 🔍 Progress Tracker (Auto-updates)
-\`\`\`tasks
-not done
-description includes Article or YouTube or Note
+function updateOverall() {
+    overall.checked = [...subCheckboxes].every(cb => cb.checked);
+}
+
+subCheckboxes.forEach(cb => cb.addEventListener("change", updateOverall));
 \`\`\`
 `;
 %>
