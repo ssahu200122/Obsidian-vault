@@ -1,7 +1,8 @@
 <%*
 const heading = await tp.system.prompt("Enter heading:");
-%>
-# <%= heading %>
+tR += ${heading}
+-%>
+
 
 - [ ] Overall done
   - [ ] Article
