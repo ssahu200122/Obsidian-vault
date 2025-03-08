@@ -9,5 +9,6 @@
 8. [[Bit Manipulation (Concepts and Problems) ]]
 9. [[Stack and Queues (Learning, Pre-In-Post fix, Monotonic Stack, Implementation)]]
 10. [[Sliding Window & Two Pointer Combined Problems]]
-11. [[Heaps ]]
-12. 
+11. [[Heaps (Learning, Medium, Hard Problems)]]
+12. [[Greedy Algorithms (Easy, Medium, Hard)]]
+13. 
