@@ -136,13 +136,13 @@ World program design is divided into two phases, each of which has sub-parts:
          
 
 ;; CAT-X -> CAT-X
-;; produce the next x-coo
+;; produce the next x-coordinate of cat by incrementing it with 1
 ;; !!!
 (define (tock ws) ...)
 
 
-;; WS -> Image
-;; render ... 
+;; CAT-X -> Image
+;; render new position of the cat on  
 ;; !!!
 (define (render ws) ...)
 ```
