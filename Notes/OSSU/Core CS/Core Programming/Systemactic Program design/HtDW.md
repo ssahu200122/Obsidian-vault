@@ -108,7 +108,8 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Data definitions:
 
-;; WS is ... (give WS a better name)
+;;CAT-X is Integer
+
 
 
 
