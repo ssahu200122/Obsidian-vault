@@ -35,5 +35,5 @@ array is the data structure which contains similar type of data
 > 2005199424 1586769954 -2 6422280 2005175325 4201040
 > ```
 
-- In above example there are t
+- In above example there are two Arrays A and B. when a Array is initialized in glo
 
