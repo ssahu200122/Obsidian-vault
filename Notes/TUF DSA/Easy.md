@@ -39,3 +39,14 @@ array is the data structure which contains similar type of data
 
 - In above example there are two Arrays A and B. when a Array is declared in global scope then, it initialized by 0 otherwise by garbage value
 ## [Problem and code](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/)
+
+
+# Second Largest Element in an Array without sorting
+
+- [ ] Overall Done
+  - [ ] [Article](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/)
+  - [ ] [Youtube](https://youtu.be/37E9ckMDdTk)
+  - [ ] [Practice](https://bit.ly/3Pld280) 
+  - [ ] Note
+  - [ ] Revision
+
