@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+                "file": "Notes/TUF DSA/Easy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDW"
+              "title": "Easy"
             }
           },
           {
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,10 +248,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "80cf89c29f3b62de",
+  "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
-    "Notes/Templates/checkboxtmpt.md",
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/TUF DSA/Easy.md",
+    "Notes/Templates/checkboxtmpt.md",
     "Notes/TUF DSA/Hard.md",
     "Untitled.md",
     "Notes/Templates/checkbox.md",
@@ -260,7 +261,6 @@
     "Solve Problems on Arrays (Easy,Medium,hard).md",
     "Notes/TUF DSA/Medium.md",
     "Notes/TUF DSA/TUF DSA.md",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/TUF DSA",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/ca.md",
