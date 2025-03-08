@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#question",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -216,7 +217,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "80cf89c29f3b62de",
+  "active": "6405d55301c5f9c6",
   "lastOpenFiles": [
     "TUF DSA.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
