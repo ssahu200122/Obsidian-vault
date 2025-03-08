@@ -1,10 +1,10 @@
 # Largest Element  in an Array
 
 - [ ] Overall Done
-  - [ ] [Article](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/)
-  - [ ] [Youtube](https://youtu.be/37E9ckMDdTk)
-  - [ ] [Practice](https://bit.ly/3Pld280)
-  - [ ] Note
+  - [x] [Article](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/) ✅ 2025-03-08
+  - [x] [Youtube](https://youtu.be/37E9ckMDdTk) ✅ 2025-03-08
+  - [x] [Practice](https://bit.ly/3Pld280) ✅ 2025-03-08
+  - [x] Note ✅ 2025-03-08
   - [ ] Revision
 
 ### Array 
