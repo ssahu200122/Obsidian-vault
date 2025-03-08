@@ -12,8 +12,8 @@ array is the data structure which contains similar type of data
 
 - ==max size== that can be defined in c++ = 10^6
 > [!abstract]+ Code
-> Code
--```
+> Code:
+>```
 > #include<bits/stdc++.h>
 > using namespace std;
 > int A[6];
@@ -35,4 +35,5 @@ array is the data structure which contains similar type of data
 > 2005199424 1586769954 -2 6422280 2005175325 4201040
 > ```
 
+- In above example there are t
 
