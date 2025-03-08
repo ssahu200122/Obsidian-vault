@@ -44,3 +44,6 @@ World program design is divided into two phases, each of which has sub-parts:
 | CTR-Y         |               |                  |
 | cat_image     |               |                  |
 | MTS           |               |                  |
+
+
+### Template for a world progr
