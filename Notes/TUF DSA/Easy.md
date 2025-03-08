@@ -10,7 +10,7 @@
 ### Array 
 array is the data structure which contains similar type of data
 
-==maximum size that can be defined == 
+==maximum size that can be defined in c++== = 10^6
 
 
 
