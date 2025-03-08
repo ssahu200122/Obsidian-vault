@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Templates/checkbox dsa tmpt.md",
+                "file": "Notes/TUF DSA/Hard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "checkbox dsa tmpt"
+              "title": "Hard"
             }
           },
           {
@@ -236,8 +236,8 @@
   },
   "active": "80cf89c29f3b62de",
   "lastOpenFiles": [
-    "Notes/TUF DSA/Hard.md",
     "Notes/Templates/checkbox dsa tmpt.md",
+    "Notes/TUF DSA/Hard.md",
     "Notes/TUF DSA/Easy.md",
     "Solve Problems on Arrays (Easy,Medium,hard).md",
     "Notes/TUF DSA/Medium.md",

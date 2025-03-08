@@ -1,27 +1,22 @@
 <%*
-const heading = await tp.system.prompt("Enter heading?");
+const heading = await tp.system.prompt("Enter heading:");
 
 tR += `# ${heading}
 
-- [ ] **Overall Done**
-  - [ ] Article
-  - [ ] YouTube
-  - [ ] Note
+- [ ] **Overall Done** <!-- This gets checked when all sub-checkboxes are checked -->
+  - [ ] Article  
+  - [ ] YouTube  
+  - [ ] Note  
 
-\`\`\`js
-document.addEventListener("DOMContentLoaded", () => {
-    const checkboxes = document.querySelectorAll("input[type='checkbox']");
-    
-    function updateOverall() {
-        const overallCheckbox = checkboxes[0]; // First checkbox is "Overall Done"
-        const subCheckboxes = Array.from(checkboxes).slice(1); // Rest are sub-tasks
+\`\`\`dataviewjs
+const overall = dv.container.querySelector("ul > li:first-child input");
+const subCheckboxes = dv.container.querySelectorAll("ul > li > ul > li input");
 
-        overallCheckbox.checked = subCheckboxes.every(cb => cb.checked);
-    }
+function updateOverall() {
+    overall.checked = [...subCheckboxes].every(cb => cb.checked);
+}
 
-    checkboxes.forEach(cb => cb.addEventListener("change", updateOverall));
-});
+subCheckboxes.forEach(cb => cb.addEventListener("change", updateOverall));
 \`\`\`
 `;
 %>
-
