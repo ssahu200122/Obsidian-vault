@@ -11,12 +11,14 @@
             "id": "2de260183b72ecae",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md"
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "How to design world"
+              "icon": "lucide-file",
+              "title": "HtDW"
             }
           },
           {
@@ -206,9 +208,9 @@
   },
   "active": "2de260183b72ecae",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/_Core programming.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Pasted image 20250308113359.png",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/_ Systematic program design.md",
     "Untitled Diagram.svg",
