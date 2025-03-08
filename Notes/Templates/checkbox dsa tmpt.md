@@ -1,5 +1,5 @@
 <%*
-const heading = await tp.system.prompt("Enter heading?");
+const heading = await tp.system.prompt("Enter heading:");
 
 tR += `# ${heading}
 
@@ -8,19 +8,17 @@ tR += `# ${heading}
   - [ ] YouTube
   - [ ] Note
 
-\`\`\`js
-document.addEventListener("DOMContentLoaded", () => {
-    const checkboxes = document.querySelectorAll("input[type='checkbox']");
-    
-    function updateOverall() {
-        const overallCheckbox = checkboxes[0]; // First checkbox is "Overall Done"
-        const subCheckboxes = Array.from(checkboxes).slice(1); // Rest are sub-tasks
+\`\`\`dataviewjs
+const overallCheckbox = dv.el("input", "", { type: "checkbox", class: "overall-checkbox" });
+const subCheckboxes = [
+    dv.el("input", "", { type: "checkbox", class: "sub-checkbox" }),
+    dv.el("input", "", { type: "checkbox", class: "sub-checkbox" }),
+    dv.el("input", "", { type: "checkbox", class: "sub-checkbox" })
+];
 
-        overallCheckbox.checked = subCheckboxes.every(cb => cb.checked);
-    }
-
-    checkboxes.forEach(cb => cb.addEventListener("change", updateOverall));
-});
+subCheckboxes.forEach(cb => cb.addEventListener("change", () => {
+    overallCheckbox.checked = subCheckboxes.every(cb => cb.checked);
+}));
 \`\`\`
 `;
 %>
