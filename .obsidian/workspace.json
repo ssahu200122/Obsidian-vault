@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,7 +220,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88a5f3464612d654",
+  "active": "2180189dfa1aa3ec",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "NoFap.md",
