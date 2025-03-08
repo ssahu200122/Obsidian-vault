@@ -11,11 +11,13 @@
             "id": "2de260183b72ecae",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md"
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
+              "icon": "lucide-file",
               "title": "How to design world"
             }
           },
@@ -205,7 +207,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f4baa52995b0b759",
+  "active": "2de260183b72ecae",
   "lastOpenFiles": [
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
