@@ -39,7 +39,7 @@ World program design is divided into two phases, each of which has sub-parts:
 
 | Constant info | Changing info | Big Bang Options |
 | ------------- | ------------- | ---------------- |
-| w             | CAT-X         |                  |
+| w             | CAT-X         | on-tick          |
 | h             |               |                  |
 | CTR-Y         |               |                  |
 | cat_image     |               |                  |
