@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 7559422
       }
+    },
+    {
+      "query": "file:TUF DSA",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1505651293553061,
+  "scale": 0.7384354131168176,
   "close": true
 }
