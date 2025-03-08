@@ -102,8 +102,8 @@ World program design is divided into two phases, each of which has sub-parts:
 (define Width 600)
 (define Height 400)
 (define CRT-Y (/ Height 2))
-
-
+(define cat-imge <CatImage>)
+(MTS)
 
 ;; =================
 ;; Data definitions:
