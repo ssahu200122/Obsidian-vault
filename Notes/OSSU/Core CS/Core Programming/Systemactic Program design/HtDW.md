@@ -6,10 +6,12 @@
 > ![[Pasted image 20250308113359.png]]
  
 
-## Domain analysis
+## Domain analysis: 
 
-# 1. Draw program scenario
-# 2. 
+1. Draw program scenario
+2. Find constant information 
+3. Find changing information
+4. Identi
 
 
 
