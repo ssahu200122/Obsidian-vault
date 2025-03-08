@@ -50,3 +50,12 @@ array is the data structure which contains similar type of data
   - [x] Note ✅ 2025-03-09
   - [ ] Revision
 
+# Check if the array is sorted
+
+- [ ] Overall Done
+  - [x] [Article](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/) ✅ 2025-03-09
+  - [x] [Youtube](https://youtu.be/37E9ckMDdTk) ✅ 2025-03-09
+  - [x] [Practice](https://bit.ly/3Pld280) ✅ 2025-03-09
+  - [ ] Note
+  - [ ] Revision
+
