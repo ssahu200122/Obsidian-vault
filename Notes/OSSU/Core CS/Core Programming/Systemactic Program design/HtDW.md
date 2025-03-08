@@ -11,5 +11,5 @@
 3. Find changing information
 4. Identify big bang options
 
-
+![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/Untitled Diagram.svg]]
 
