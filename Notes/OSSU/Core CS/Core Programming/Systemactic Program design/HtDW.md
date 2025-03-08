@@ -126,19 +126,17 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Functions:
 
-;; WS -> WS
+;; CAT-X -> CAT-X
 ;; start the world with ...
 ;; 
 (define (main ws)
-  (big-bang ws                   ; WS
-            (on-tick   tock)     ; WS -> WS
-            (to-draw   render)   ; WS -> Image
-            (stop-when ...)      ; WS -> Boolean
-            (on-mouse  ...)      ; WS Integer Integer MouseEvent -> WS
-            (on-key    ...)))    ; WS KeyEvent -> WS
+  (big-bang ws                   ; CAT-X
+            (on-tick   tock)     ; CAT-X -> CAT-X
+            (to-draw   render)   ; CAT-X -> Image
+         
 
-;; WS -> WS
-;; produce the next ...
+;; CAT-X -> CAT-X
+;; produce the next x-coo
 ;; !!!
 (define (tock ws) ...)
 
