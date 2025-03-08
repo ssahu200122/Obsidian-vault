@@ -10,7 +10,8 @@
 ### Array 
 array is the data structure which contains similar type of data
 
-- ==max size== that can be defined in c++ = 10^6
+- ==max size== that can be defined in main function  = 10^6
+- ==max size== that can be defined in global scope  = 10^7
 
 > [!abstract]+ Code
 > Code:
