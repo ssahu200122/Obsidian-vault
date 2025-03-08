@@ -1,23 +1,26 @@
 <%*
-const heading = await tp.system.prompt("Enter heading:");
+const heading = await tp.system.prompt("Enter heading?");
 
 tR += `# ${heading}
 
-- [ ] **Overall Done** <!-- Auto-checked if all sub-tasks are done -->
-  - [ ] Article  
-  - [ ] YouTube  
-  - [ ] Note  
+- [ ] **Overall Done**
+  - [ ] Article
+  - [ ] YouTube
+  - [ ] Note
 
-\`\`\`dataviewjs
-const overall = dv.el("input", "", { type: "checkbox", disabled: true });
-const checkboxes = dv.current().querySelectorAll("li input[type=checkbox]");
+\`\`\`js
+document.addEventListener("DOMContentLoaded", () => {
+    const checkboxes = document.querySelectorAll("input[type='checkbox']");
+    
+    function updateOverall() {
+        const overallCheckbox = checkboxes[0]; // First checkbox is "Overall Done"
+        const subCheckboxes = Array.from(checkboxes).slice(1); // Rest are sub-tasks
 
-function updateOverall() {
-    const allChecked = [...checkboxes].slice(1).every(cb => cb.checked);
-    overall.checked = allChecked;
-}
+        overallCheckbox.checked = subCheckboxes.every(cb => cb.checked);
+    }
 
-checkboxes.forEach(cb => cb.addEventListener("change", updateOverall));
+    checkboxes.forEach(cb => cb.addEventListener("change", updateOverall));
+});
 \`\`\`
 `;
 %>
