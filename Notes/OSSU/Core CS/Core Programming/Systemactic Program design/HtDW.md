@@ -13,5 +13,5 @@
 
 
 
-![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^frame=BCe5X13OVK2ih1hpLP9DP]]
+
 
