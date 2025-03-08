@@ -8,5 +8,4 @@ const heading = await tp.system.suggester(Object.values(callouts), Object.keys(c
   - [ ] Note  
 
 
-%>
-
+-%>
