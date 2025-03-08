@@ -11,13 +11,11 @@
             "id": "2de260183b72ecae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md"
               },
-              "icon": "lucide-file",
+              "icon": "excalidraw-icon",
               "title": "How to design world"
             }
           },
@@ -207,10 +205,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2de260183b72ecae",
+  "active": "d30f05f59b0140b9",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/kk.md",
     "NoFap.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
