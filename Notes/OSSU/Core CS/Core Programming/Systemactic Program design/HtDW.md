@@ -8,5 +8,8 @@
 
 ## Domain analysis
 
+# 1. Draw program scenario
+# 2. 
+
 
 
