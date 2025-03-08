@@ -1,11 +1,12 @@
 <%*
-const heading = await tp.system.suggester(Object.values(callouts), Object.keys(callouts), true, 'Select callout type.');
-# ${heading}
+const heading = await tp.system.prompt("Enter heading:");
 
-- [ ] **Overall Done** <!-- This gets checked when all sub-checkboxes are checked -->
+tR += `# ${heading}
+
+- [ ] **Overall Done**
   - [ ] Article  
   - [ ] YouTube  
   - [ ] Note  
-
-
+`;
 -%>
+
