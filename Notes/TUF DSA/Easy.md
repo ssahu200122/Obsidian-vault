@@ -44,9 +44,9 @@ array is the data structure which contains similar type of data
 # Second Largest Element in an Array without sorting
 
 - [ ] Overall Done
-  - [ ] [Article](https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/)
-  - [ ] [Youtube](https://youtu.be/37E9ckMDdTk)
-  - [ ] [Practice](https://bit.ly/3pFvBcN) 
-  - [ ] Note
+  - [x] [Article](https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/) ✅ 2025-03-09
+  - [x] [Youtube](https://youtu.be/37E9ckMDdTk) ✅ 2025-03-09
+  - [x] [Practice](https://bit.ly/3pFvBcN) ✅ 2025-03-09
+  - [x] Note ✅ 2025-03-09
   - [ ] Revision
 
