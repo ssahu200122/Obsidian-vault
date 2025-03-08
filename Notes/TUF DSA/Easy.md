@@ -11,6 +11,23 @@
 array is the data structure which contains similar type of data
 
 - ==max size== that can be defined in c++ = 10^6
-- 
+- > [!abstract]- Code
+
+> ```
+> #include<bits/stdc++.h>
+> using namespace std;
+> int A[6];
+> int main(){
+>     int B[6];
+>     for(int i=0;i<6;i++){
+>         cout<<A[i]<<" ";
+>     }
+>     cout<<endl;
+>     for(int i=0;i<6;i++){
+>         cout<<B[i]<<" ";
+>     }
+>     return 0;
+> }
+> ```
 
 
