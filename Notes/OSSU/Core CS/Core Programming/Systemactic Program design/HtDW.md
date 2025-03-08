@@ -14,3 +14,4 @@
 
 
 ![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^area=dtCfPt_MBx9qpQzfh2SQj]]
+[[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^dtCfPt_MBx9qpQzfh2SQj]]
