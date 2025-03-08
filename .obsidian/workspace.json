@@ -33,8 +33,7 @@
               "title": "HtDW"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HtDW"
+              "title": "Outgoing links from How to design world"
             }
           },
           {
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HtDW"
+              "title": "Outline of How to design world"
             }
           },
           {
@@ -206,10 +205,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ab95a3c7f80c7fc",
+  "active": "f4baa52995b0b759",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/kk.md",
     "NoFap.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
