@@ -7,5 +7,6 @@
   "templater-obsidian",
   "drawio-obsidian",
   "obsidian-tracker",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "js-engine"
 ]
