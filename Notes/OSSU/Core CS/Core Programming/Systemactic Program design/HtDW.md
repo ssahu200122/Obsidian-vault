@@ -13,13 +13,13 @@ World program design is divided into two phases, each of which has sub-parts:
 ###### Big bang options:
 
 
-| \|If your program needs to: |     |
-| --------------------------- | --- |
-|                             |     |
-|                             |     |
-|                             |     |
-|                             |     |
-|                             |     |
+| If your program needs to:              | Then it needs this option:                            |
+| -------------------------------------- | ----------------------------------------------------- |
+| change as time goes by (nearly all do) |                                                       |
+| display something (nearly all do)      |                                                       |
+| change in response to key presses      |                                                       |
+| change in response to mouse activity   |                                                       |
+| stop automatically                     | \|           \|<br>\| --------- \|<br>\| stop-when \| |
 
 ### Build the actual program
 1. Constants (based on 1.2 above)
