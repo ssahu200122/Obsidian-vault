@@ -19,3 +19,6 @@
 | Constant info | Changing info | Big Bang Options |
 | ------------- | ------------- | ---------------- |
 |               |               |                  |
+|               |               |                  |
+|               |               |                  |
+|               |               |                  |
