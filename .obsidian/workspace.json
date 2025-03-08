@@ -47,7 +47,8 @@
               "title": "HtDW"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from How to design world"
+              "title": "Outgoing links from HtDW"
             }
           },
           {
@@ -168,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of How to design world"
+              "title": "Outline of HtDW"
             }
           },
           {
@@ -219,14 +220,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2de260183b72ecae",
+  "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
     "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
     "Excalidraw/Scripts/Downloaded/Set Font Family.svg",
     "Excalidraw/Scripts/Downloaded/Set Font Family.md",
     "NoFap.md",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Pasted image 20250308113359.png",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/Untitled Diagram.svg",
@@ -239,7 +240,6 @@
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/resources/Pasted image 20250307151246.png",
     "Notes/resources/Pasted image 20250307151429.png",
-    "Notes/resources/Pasted image 20250307182136.png",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDD.md",
     "Notes/Templates/Callouts.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design functions Recipe.md",
