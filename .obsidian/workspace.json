@@ -206,8 +206,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ab95a3c7f80c7fc",
+  "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/TUF DSA",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/ca.md",
@@ -253,7 +254,6 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "Notes/Excalidraw",
-    "Notes/Excalidraw/Demo drawing.md"
+    "Notes/Excalidraw"
   ]
 }
