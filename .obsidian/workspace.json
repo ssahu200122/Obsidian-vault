@@ -46,6 +46,16 @@
               "icon": "lucide-file",
               "title": "Easy"
             }
+          },
+          {
+            "id": "3c3134077b3e5c14",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 2
@@ -101,13 +111,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "adfb45fdf6de6698",
@@ -224,6 +232,7 @@
   },
   "active": "80cf89c29f3b62de",
   "lastOpenFiles": [
+    "Notes/Templates/checkbox dsa tmpt.md",
     "Easy.md",
     "Solve Problems on Arrays (Easy,Medium,hard).md",
     "TUF DSA.md",
@@ -267,7 +276,6 @@
     "OneNote/git and gitHub",
     "OneNote",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/How to design functions Recipe.sync-conflict-20250305-160329-OX7WQ3H.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw"
