@@ -99,6 +99,9 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Constants:
 
+(define WIDTH 600)
+(define )
+
 
 ;; =================
 ;; Data definitions:
