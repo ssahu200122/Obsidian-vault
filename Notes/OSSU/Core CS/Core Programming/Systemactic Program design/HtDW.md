@@ -13,9 +13,13 @@ World program design is divided into two phases, each of which has sub-parts:
 ###### Big bang options:
 
 
-|     |     |
-| --- | --- |
-|     |     |
+| \|If your program needs to: |     |
+| --------------------------- | --- |
+|                             |     |
+|                             |     |
+|                             |     |
+|                             |     |
+|                             |     |
 
 ### Build the actual program
 1. Constants (based on 1.2 above)
