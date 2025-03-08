@@ -38,4 +38,4 @@ array is the data structure which contains similar type of data
 > ```
 
 - In above example there are two Arrays A and B. when a Array is declared in global scope then, it initialized by 0 otherwise by garbage value
-
+## [Problem and code](https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/)
