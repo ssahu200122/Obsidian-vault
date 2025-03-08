@@ -46,7 +46,7 @@ World program design is divided into two phases, each of which has sub-parts:
 | MTS           |               |                  |
 
 
-### Template for a world program:
+
 
 ```
 (require 2htdp/image)
