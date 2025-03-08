@@ -10,6 +10,13 @@ World program design is divided into two phases, each of which has sub-parts:
 2. Identify constant information
 3. Identify changing information
 4. Identify big-bang options
+|If your program needs to:|Then it needs this option:|
+|---|---|
+|change as time goes by (nearly all do)|on-tick|
+|display something (nearly all do)|to-draw|
+|change in response to key presses|on-key|
+|change in response to mouse activity|on-mouse|
+|stop automatically|stop-when|
 ### Build the actual program
 1. Constants (based on 1.2 above)
 2. Data definitions using [HtDD](https://courses.edx.org/courses/course-v1:UBCx+SPD1x+2T2015/77860a93562d40bda45e452ea064998b/?_gl=1*7trowx*_gcl_au*MzY3NTM0NDQ3LjE3NDA4ODU0Nzk.*_ga*MTEyMTM3MjMwNC4xNzQwODg1NDc5*_ga_D3KS4KMDT0*MTc0MTM0OTY4OS42LjEuMTc0MTM0OTc1Mi41Ny4wLjA.#HtDD) (based on 1.3 above)
