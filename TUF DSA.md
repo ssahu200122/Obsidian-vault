@@ -14,4 +14,6 @@
 13. [[Binary Trees (Traversal, Medium and Hard Problems)]]
 14. [[Binary search Tree (Concept and problems)]]
 15. [[Graphs (Concepts & Problems)]]
-16. [[Dynamic Programming (Patterns & )]]
+16. [[Dynamic Programming (Patterns & Problems)]]
+17. [[Tries]]
+18. [[Strings]]
