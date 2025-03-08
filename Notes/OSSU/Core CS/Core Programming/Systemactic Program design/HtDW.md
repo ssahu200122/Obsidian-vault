@@ -12,12 +12,12 @@
 4. Identify big bang options
 
 
-![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^group=dtCfPt_MBx9qpQzfh2SQj]]
+![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^group=dtCfPt_MBx9qpQzfh2SQj|1000]]
 
 | Constant info | Changing info | Big Bang Options |
 | ------------- | ------------- | ---------------- |
-| w             |               |                  |
+| w             | CAT-X         |                  |
 | h             |               |                  |
-| CTR-y         |               |                  |
+| CTR-Y         |               |                  |
 | cat_image     |               |                  |
 | MTS           |               |                  |
