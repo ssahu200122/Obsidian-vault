@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Element Links
-tUz7nD1g: [[HtDD.md]]
+tUz7nD1g: [[HtDD]]
 
 %%
 ## Drawing
