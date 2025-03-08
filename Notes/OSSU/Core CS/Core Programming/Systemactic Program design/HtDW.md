@@ -108,18 +108,18 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Data definitions:
 
-;; CAT-X is Integer
+;; CAT-X is Number
 ;; interp. x-coordinate of the cat on MTS
 
-(define cx 0)                ; Beginning of the screen, to Left
-(define cx Width)            ; End of the screen, to Right
+(define cx1 0)                ; Beginning of the screen, to Left
+(define cx2 Width)            ; End of the screen, to Right
 
 #;
 (define (fn-for-cat-x cx)
            (... cx))
            
 ;; Template rules used:
-;;          - atomic non-distinct: Integer
+;;          - atomic non-distinct: Number
 
 
 
