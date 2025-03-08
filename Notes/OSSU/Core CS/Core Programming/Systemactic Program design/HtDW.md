@@ -94,7 +94,7 @@ World program design is divided into two phases, each of which has sub-parts:
 (require 2htdp/image)
 (require 2htdp/universe)
 
-;; My world program  (make this more specific)
+;; A Program in which a cat walks from left to right acroos the screen
 
 ;; =================
 ;; Constants:
