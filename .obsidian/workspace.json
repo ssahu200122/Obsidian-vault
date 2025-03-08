@@ -47,8 +47,7 @@
               "title": "HtDW"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NoFap.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NoFap"
+              "title": "Outgoing links from How to design world"
             }
           },
           {
@@ -169,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NoFap.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NoFap"
+              "title": "Outline of How to design world"
             }
           },
           {
@@ -220,10 +219,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2180189dfa1aa3ec",
+  "active": "2de260183b72ecae",
   "lastOpenFiles": [
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "NoFap.md",
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Pasted image 20250308113359.png",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/Untitled Diagram.svg",
