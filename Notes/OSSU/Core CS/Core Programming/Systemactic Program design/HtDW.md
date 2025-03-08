@@ -15,3 +15,7 @@
 ![[Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design world.md#^group=dtCfPt_MBx9qpQzfh2SQj]]
 
 
+
+| Constant info | Changing info | Big Bang Options |
+| ------------- | ------------- | ---------------- |
+|               |               |                  |
