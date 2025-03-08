@@ -130,19 +130,19 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; start the world with ...
 ;; 
 (define (main ws)
-  (big-bang ws                   ; CAT-X
+  (big-bang ws                         ; CAT-X
             (on-tick   increase-x)     ; CAT-X -> CAT-X
-            (to-draw   render)   ; CAT-X -> Image
+            (to-draw   render)         ; CAT-X -> Image
          
 
 ;; CAT-X -> CAT-X
 ;; produce the next x-coordinate of cat by incrementing it with 1
 ;; !!!
-(define (increase-x ws) )
+(define (increase-x cx) 0)
 
 
 ;; CAT-X -> Image
 ;; render new position of the cat on MTS 
 ;; !!!
-(define (render ws) ...)
+(define (render cx) MTS)
 ```
