@@ -99,8 +99,10 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Constants:
 
-(define WIDTH 600)
-(define )
+(define Width 600)
+(define Height 400)
+(define CRT-Y (/ Height 2))
+
 
 
 ;; =================
