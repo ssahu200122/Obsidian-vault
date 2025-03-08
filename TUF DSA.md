@@ -7,4 +7,5 @@
 6. [[Learn LinkedList (Single LL, Double LL, Medium, Hard Problems)]]
 7. [[Recursion ( Pattern wise)]]
 8. [[Bit Manipulation (Concepts and Problems) ]]
-9. 
+9. [[Stack and Queues (Learning, Pre-In-Post fix, Moni)]]
+10. 
