@@ -108,7 +108,11 @@ World program design is divided into two phases, each of which has sub-parts:
 ;; =================
 ;; Data definitions:
 
-;;CAT-X is Integer
+;; CAT-X is Integer
+;; interp. x-coordinate of the cat on MTS
+
+(define cx 0)
+(de)
 
 
 
