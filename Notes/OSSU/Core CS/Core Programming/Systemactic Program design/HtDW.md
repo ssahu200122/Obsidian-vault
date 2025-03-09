@@ -172,3 +172,5 @@ World program design is divided into two phases, each of which has sub-parts:
 > (define (render cx)
 >            (place-image cat-imge cx CRT-Y MTS))
 > ```
+
+Now, suppose we need implement the **SPEED** of th
