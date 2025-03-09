@@ -18,3 +18,6 @@ P1              ;(make-pos 2 3)      ;Calling
 
 ## How to form compound data definitions using the HtDD recipe:
 
+```
+(define-struct )
+```
