@@ -1,5 +1,5 @@
 - [[Core CS]]
-- [[resources and Important]]
+- [[Resources and Important]]
 
 
 
