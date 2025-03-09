@@ -14,3 +14,7 @@ P1              ;(make-pos 2 3)      ;Calling
 (pos? P1)       ;true                ;Predicate
 (pos? "Hello")  ;false
 ```
+
+
+## How to form compound data definitions using the HtDD recipe:
+
