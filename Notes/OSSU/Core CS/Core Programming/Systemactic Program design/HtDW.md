@@ -274,3 +274,7 @@ Now, suppose we need implement the **SPEED** of the moving cat. We simply look i
 > [countdown](https://s3.amazonaws.com/edx-course-spdx-kiczales/countdown-animation-starter.rkt)
 > [Solution](https://s3.amazonaws.com/edx-course-spdx-kiczales/countdown-animation-solution.rkt)
 
+> [!todo]- HtDW P2 - Traffic Light Porblem
+#question
+> [Trffic light](https://s3.amazonaws.com/edx-course-spdx-kiczales/traffic-light-starter.rkt)
+> [Solution](https://s3.amazonaws.com/edx-course-spdx-kiczales/traffic-light-solution.rkt)
