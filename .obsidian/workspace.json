@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essence of Linear algebra.md",
+                "file": "Advanced CS/Advanced CS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Essence of Linear algebra"
+              "title": "Advanced CS"
             }
           }
         ],
@@ -210,10 +210,11 @@
   },
   "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
-    "Untitled",
-    "Advanced mathematics.md",
     "Essence of Linear algebra.md",
-    "Advanced CS.md",
+    "Advanced CS/Advanced maths",
+    "Advanced CS",
+    "Advanced mathematics.md",
+    "Advanced CS/Advanced CS.md",
     "Notes/OSSU/OSSU_ROOT.md",
     "Notes/OSSU/Core CS/Core CS.md",
     "[Find.md",
@@ -254,8 +255,6 @@
     "OneNote/git and gitHub/git harry",
     "OneNote/git and gitHub",
     "OneNote",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw"
+    "Excalidraw/Scripts/Downloaded"
   ]
 }
