@@ -269,3 +269,8 @@ Now, suppose we need implement the **SPEED** of the moving cat. We simply look i
 >            (place-image cat-imge cx CRT-Y MTS))
 > ```
 
+> [!todo]- HtDW P1 - Countdown problem
+#question
+> [countdown](https://s3.amazonaws.com/edx-course-spdx-kiczales/countdown-animation-starter.rkt)
+> [Solution](https://s3.amazonaws.com/edx-course-spdx-kiczales/countdown-animation-solution.rkt)
+
