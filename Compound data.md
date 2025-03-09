@@ -28,6 +28,10 @@ P1              ;(make-pos 2 3)      ;Calling
 (define P1 (make-player "Sourabh" "Sahu"))             ;Example
 
 #; 
-(define (fn-for-player p))
+(define (fn-for-player p)
+)
+
+; Template rules used:
+;       
  
 ```
