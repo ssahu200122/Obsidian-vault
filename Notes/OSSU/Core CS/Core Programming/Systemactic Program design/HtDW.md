@@ -94,6 +94,10 @@ World program design is divided into two phases, each of which has sub-parts:
 (require 2htdp/image)
 (require 2htdp/universe)
 
+
+
+
+
 ;; A Program in which a cat walks from left to right acroos the screen
 
 ;; =================
@@ -102,8 +106,8 @@ World program design is divided into two phases, each of which has sub-parts:
 (define Width 600)
 (define Height 400)
 (define CRT-Y (/ Height 2))
-(define cat-imge <CatImage>)
-(MTS (empty-scene Width Height))
+(define MTS (empty-scene Width Height))
+(define cat-imge .)                                   ;Cat-Image
 
 ;; =================
 ;; Data definitions:
@@ -134,15 +138,36 @@ World program design is divided into two phases, each of which has sub-parts:
             (on-tick   increase-x)     ; CAT-X -> CAT-X
             (to-draw   render)         ; CAT-X -> Image
          
-
+))
 ;; CAT-X -> CAT-X
 ;; produce the next x-coordinate of cat by incrementing it with 1
-;; !!!
-(define (increase-x cx) 0)
+(check-expect (increase-x 0) 1)
+(check-expect (increase-x 10) 11)
 
+;(define (increase-x cx) 0)
+
+; took template from CAT-X data definition
+#;
+(define (fn-for-cat-x cx)
+           (... cx))
+
+(define (increase-x cx)
+           (add1 cx))
 
 ;; CAT-X -> Image
 ;; render new position of the cat on MTS 
-;; !!!
-(define (render cx) MTS)
+(check-expect (render 0)
+              (place-image cat-imge 0 CRT-Y MTS))
+(check-expect (render Width)
+              (place-image cat-imge Width CRT-Y MTS))
+
+
+;(define (render cx) MTS)
+
+; took template from CAT-X data definition
+#;
+(define (fn-for-cat-x cx)
+           (... cx))
+(define (render cx)
+           (place-image cat-imge cx CRT-Y MTS))
 ```
