@@ -11,10 +11,14 @@
             "id": "0ab95a3c7f80c7fc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Advanced CS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Advanced CS"
             }
           }
         ]
@@ -192,6 +196,8 @@
   "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
     "Notes/OSSU/OSSU_ROOT.md",
+    "Advanced CS.md",
+    "Notes/OSSU/Core CS/Core CS.md",
     "[Find.md",
     "Notes/resources/Pasted image 20250308113359.png",
     "Notes/OSSU/Resources and Important.md",
@@ -224,7 +230,6 @@
     "Pasted image 20250308120746.png",
     "Notes/OSSU/Core CS/Core Programming/_Core programming.md",
     "Untitled Diagram.svg",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDF.md",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/Templates 1",
