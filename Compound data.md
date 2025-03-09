@@ -1,3 +1,16 @@
 Compound data is used to bind together the data of similar types
 **Example** : (x, y) coordinates etc.
 
+```
+(define-struct pos ( x y))           ;Definition
+
+(define P1 (make-pos 2 3))           ;Constructor
+
+P1              ;(make-pos 2 3)      ;Calling
+
+(pos-x P1)      ;2                   ;Selector
+(pos-y P1)      ;3
+
+(pos? P1)       ;true                ;Predicate
+(pos? "Hello")  ;false
+```
