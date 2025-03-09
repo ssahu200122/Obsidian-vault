@@ -32,3 +32,37 @@
 >> ;;       -Compound: 3 fields
 >> 
 >> ```
+
+> [!question]- 
+#question
+![[Pasted image 20250309130551.png]]
+> Funtion:
+>> [!done]- Solution
+>> ```
+>> ;; Movie Movie -> String
+>> ;; Produces the title of the most recently released movie
+>> 
+>> (check-expect (most-recent M1 M2) (movie-title M2))
+>> 
+>> ;(define (most-recent m1 m2)" ")
+>> 
+>> #;
+>> (define (fn-for-movie m1 m2)
+>>   (... (movie-title m1)      ;String
+>>        (movie-title m2)      ;String
+>>        (movie-budget m1)     ;Natural
+>>        (movie-budget m2)     ;Natural
+>>        (movie-year m1)       ;Natural
+>>        (movie-year m2)       ;Natural
+>>   )
+>> )
+>> 
+>> (define (most-recent m1 m2)
+>>   (if (>= (movie-year m1) (movie-year m2))
+>>       (movie-title m1)
+>>       (movie-title m2)
+>>   )
+>> )
+>> 
+>> 
+>> ```
