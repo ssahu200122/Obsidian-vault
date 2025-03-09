@@ -25,6 +25,7 @@ P1              ;(make-pos 2 3)      ;Calling
 ;;          - firstName is the first name of the hockey player
 ;;          - secondName is the last name of the hockey player
 
-()
+(define P1 (make-player "Sourabh" "Sahu"))             ;Example
 
+ 
 ```
