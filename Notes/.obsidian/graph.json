@@ -13,6 +13,13 @@
         "a": 1,
         "rgb": 16776960
       }
+    },
+    {
+      "query": "TUF DSA",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": false,
@@ -25,6 +32,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 261,
-  "scale": 0.45153094805857924,
+  "scale": 0.32436796955975356,
   "close": true
 }

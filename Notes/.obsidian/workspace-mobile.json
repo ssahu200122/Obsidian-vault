@@ -23,17 +23,10 @@
             "id": "c84d9441c0a6a4d7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "utilities/Croma Cards.canvas",
-                "viewState": {
-                  "x": -160.8595119796638,
-                  "y": 525.284607399511,
-                  "zoom": -1.8854402357371447
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Croma Cards"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -171,6 +164,7 @@
   },
   "active": "c84d9441c0a6a4d7",
   "lastOpenFiles": [
+    "utilities/Croma Cards.canvas",
     "Templates/Callouts.md",
     "resources/Pasted image 20250307105632.png",
     "resources/Pasted image 20250305012745.png",
