@@ -29,7 +29,8 @@ P1              ;(make-pos 2 3)      ;Calling
 
 #; 
 (define (fn-for-player p)
-   (... (player-firstName ))
+   (... (player-firstName p)
+        )
 )
 
 ; Template rules used:
