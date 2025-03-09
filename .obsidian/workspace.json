@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/_ Systematic program design.md",
+                "file": "Notes/OSSU/OSSU_ROOT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_ Systematic program design"
+              "title": "OSSU_ROOT"
+            }
+          },
+          {
+            "id": "0c3bc9425ffebfcc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-09 13.15.01.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-09 13.15.01.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,12 +206,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ab95a3c7f80c7fc",
+  "active": "0c3bc9425ffebfcc",
   "lastOpenFiles": [
+    "Notes/OSSU/OSSU_ROOT.md",
+    "Excalidraw/Drawing 2025-03-09 13.15.01.excalidraw.md",
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/_ Systematic program design.md",
     "Systematic program design Problems.md",
     "Pasted image 20250309130551.png",
     "Pasted image 20250309124706.png",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/_ Systematic program design.md",
     "Compound data.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "NoFap.md",
@@ -230,7 +245,6 @@
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design functions Recipe.md",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/How to design data definition.md",
     "Notes/Templates 1",
     "Notes/utilities/Croma Cards.canvas",
     "Notes/utilities/~syncthing~Untitled.canvas.tmp",
