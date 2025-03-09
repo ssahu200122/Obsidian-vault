@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#to",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "right": {
     "id": "adfb45fdf6de6698",
@@ -194,7 +195,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6405d55301c5f9c6",
+  "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
     "NoFap.md",
     "Notes/TUF DSA/Easy.md",
