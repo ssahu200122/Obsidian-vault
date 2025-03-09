@@ -184,3 +184,88 @@ Now, suppose we need implement the **SPEED** of the moving cat. We simply look i
 | cat_image     |               |                  |
 | MTS           |               |                  |
 | SPEED         |               |                  |
+> [!abstract]- Updated cat world program
+> ```
+> (require 2htdp/image)
+> (require 2htdp/universe)
+> 
+> 
+> 
+> 
+> 
+> ;; A Program in which a cat walks from left to right acroos the screen
+> 
+> ;; =================
+> ;; Constants:
+> 
+> (define Width 600)
+> (define Height 400)
+> (define CRT-Y (/ Height 2))
+> (define MTS (empty-scene Width Height))
+> (define cat-imge .)                                   ;Cat-Image
+> 
+> (define SPEED 10)
+> 
+> ;; =================
+> ;; Data definitions:
+> 
+> ;; CAT-X is Number
+> ;; interp. x-coordinate of the cat on MTS
+> 
+> (define cx1 0)                ; Beginning of the screen, to Left
+> (define cx2 Width)            ; End of the screen, to Right
+> 
+> #;
+> (define (fn-for-cat-x cx)
+>            (... cx))
+>            
+> ;; Template rules used:
+> ;;          - atomic non-distinct: Number
+> 
+> 
+> 
+> ;; =================
+> ;; Functions:
+> 
+> ;; CAT-X -> CAT-X
+> ;; start the world with ...
+> ;; 
+> (define (main ws)
+>   (big-bang ws                         ; CAT-X
+>             (on-tick   increase-x)     ; CAT-X -> CAT-X
+>             (to-draw   render)         ; CAT-X -> Image
+>          
+> ))
+> ;; CAT-X -> CAT-X
+> ;; produce the next x-coordinate of cat by incrementing it with SPEED pixels to right
+> (check-expect (increase-x 0) (+ 0 SPEED))
+> (check-expect (increase-x 10) (+ 10 SPEED))
+> 
+> ;(define (increase-x cx) 0)
+> 
+> ; took template from CAT-X data definition
+> #;
+> (define (fn-for-cat-x cx)
+>            (... cx))
+> 
+> (define (increase-x cx)
+>            (+ cx SPEED))
+> 
+> ;; CAT-X -> Image
+> ;; render new position of the cat on MTS 
+> (check-expect (render 0)
+>               (place-image cat-imge 0 CRT-Y MTS))
+> (check-expect (render Width)
+>               (place-image cat-imge Width CRT-Y MTS))
+> 
+> 
+> ;(define (render cx) MTS)
+> 
+> ; took template from CAT-X data definition
+> #;
+> (define (fn-for-cat-x cx)
+>            (... cx))
+> (define (render cx)
+>            (place-image cat-imge cx CRT-Y MTS))
+> ```
+
