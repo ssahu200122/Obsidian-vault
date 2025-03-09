@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced CS.md",
+                "file": "Advanced mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advanced CS"
+              "title": "Advanced mathematics"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
-    "Notes/OSSU/OSSU_ROOT.md",
     "Advanced CS.md",
+    "Advanced mathematics.md",
+    "Notes/OSSU/OSSU_ROOT.md",
     "Notes/OSSU/Core CS/Core CS.md",
     "[Find.md",
     "Notes/resources/Pasted image 20250308113359.png",
@@ -228,7 +229,6 @@
     "Excalidraw/Scripts/Downloaded/Set Font Family.md",
     "Notes/OSSU/Core CS/Core Programming/systemactic Program design/Untitled Diagram.svg",
     "Pasted image 20250308120746.png",
-    "Notes/OSSU/Core CS/Core Programming/_Core programming.md",
     "Untitled Diagram.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram 1.svg",
     "Notes/OSSU/Core CS/Core Programming/Systemactic Program design/Untitled Diagram.svg",
