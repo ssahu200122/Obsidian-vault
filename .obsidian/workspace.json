@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
+                "file": "Notes/OSSU/Core CS/Core Programming/systemactic Program design/_ Systematic program design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HtDW"
+              "title": "_ Systematic program design"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "adfb45fdf6de6698",
@@ -197,10 +195,10 @@
   },
   "active": "0ab95a3c7f80c7fc",
   "lastOpenFiles": [
+    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "NoFap.md",
     "Notes/TUF DSA/Easy.md",
     "[Find.md",
-    "Notes/OSSU/Core CS/Core Programming/systemactic Program design/HtDW.md",
     "Notes/Templates/checkboxtmpt.md",
     "Notes/TUF DSA/Hard.md",
     "Untitled.md",
