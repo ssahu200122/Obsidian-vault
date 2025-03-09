@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced mathematics.md",
+                "file": "Notes/OSSU/Advanced CS/Advanced maths/Advanced mathematics.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced CS/Advanced CS.md",
+                "file": "Notes/OSSU/Advanced CS/Advanced CS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Advanced CS"
             }
+          },
+          {
+            "id": "99f88b22c1abc37b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/OSSU/Advanced CS/Advanced maths/Essence of Linear algebra.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Essence of Linear algebra"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,11 +222,12 @@
   },
   "active": "e501eeeb3edb1dc5",
   "lastOpenFiles": [
+    "Notes/OSSU/Advanced CS/Advanced CS.md",
+    "Notes/OSSU/Advanced CS/Advanced maths/Essence of Linear algebra.md",
     "Essence of Linear algebra.md",
-    "Advanced CS/Advanced maths",
-    "Advanced CS",
-    "Advanced mathematics.md",
-    "Advanced CS/Advanced CS.md",
+    "Notes/OSSU/Advanced CS/Advanced maths",
+    "Notes/OSSU/Advanced CS",
+    "Notes/OSSU/Advanced CS/Advanced maths/Advanced mathematics.md",
     "Notes/OSSU/OSSU_ROOT.md",
     "Notes/OSSU/Core CS/Core CS.md",
     "[Find.md",
