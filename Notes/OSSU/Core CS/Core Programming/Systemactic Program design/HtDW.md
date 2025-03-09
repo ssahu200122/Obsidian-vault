@@ -173,4 +173,14 @@ World program design is divided into two phases, each of which has sub-parts:
 >            (place-image cat-imge cx CRT-Y MTS))
 > ```
 
-Now, suppose we need implement the **SPEED** of the moving cat. We simply look in our Domain analysis and make changes 
+Now, suppose we need implement the **SPEED** of the moving cat. We simply look in our Domain analysis and make changes accordingly. 
+
+
+| Constant info | Changing info | Big Bang Options |
+| ------------- | ------------- | ---------------- |
+| w             | CAT-X         | on-tick          |
+| h             |               | on-draw          |
+| CTR-Y         |               |                  |
+| cat_image     |               |                  |
+| MTS           |               |                  |
+| SPEED         |               |                  |
