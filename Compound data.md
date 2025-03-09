@@ -20,5 +20,6 @@ P1              ;(make-pos 2 3)      ;Calling
 
 ```
 (define-struct player (firstName secondName))
-;; 
+;; Player is (make-player String String)
+;; interp. 
 ```
