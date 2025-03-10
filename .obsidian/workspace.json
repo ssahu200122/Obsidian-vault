@@ -39,12 +39,10 @@
             "id": "99f88b22c1abc37b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Notes/OSSU/Advanced CS/Advanced maths/Essence of Linear algebra.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Essence of Linear algebra"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
